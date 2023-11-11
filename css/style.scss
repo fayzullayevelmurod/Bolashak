@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: 'Soyuz Grotesk',sans-serif;
+    src: url('../fonts/Soyuz_Grotesk_Bold/SoyuzGroteskBold.woff');
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+$Manrope: 'Manrope', sans-serif;
+$Soyuz: 'Soyuz Grotesk',sans-serif;
+
+.main_container {
+    max-width: 1740px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper_container {
+    max-width: 1890px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.main_title {
+    color:  #6E86C0;
+    font-family: $Soyuz;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110.5%;
+}
+
+.main_subtitle {
+    color:#6E86C0;
+    font-family: $Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+@import 'responsive';
