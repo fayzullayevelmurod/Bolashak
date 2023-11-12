@@ -27,6 +27,41 @@ $Soyuz: 'Soyuz Grotesk';
     margin: 0 auto;
 }
 
+.lightboxOverlay {
+    width: 100% !important;
+}
+
+.lightbox {
+    .lb-image {
+        width: 100% !important;
+        border: none;
+    }
+}
+
+.lb-container {
+    width: 100% !important;
+} 
+
+.lb-outerContainer {
+    width: 100% !important;
+    background-color: transparent;
+}
+
+.lb-dataContainer {
+    .lb-data {
+        .lb-close {
+            // display: none !important;
+            position: absolute;
+            top: 0;
+            right: 5%;
+            z-index: 10001;
+        }
+        .lb-number {
+            display: none !important;
+        }
+    }
+}
+
 .main_title {
     color:  #6E86C0;
     font-family: $Soyuz;
@@ -414,7 +449,6 @@ header {
 }
 // header
 
-
 // about
 #about {
     overflow-x: hidden;
@@ -563,12 +597,146 @@ header {
 }
 // employees
 
+// documentation
+#documentation {
+    padding-bottom: 120px;
+    .documentation_title {
+        max-width: 1740px;
+        margin: 0 auto;
+        padding: 0 20px;
+        color: #383838;
+        font-family: $Manrope;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 145%; /* 60.9px */
+        margin-bottom: 40px;
+    }
+
+    .main_container {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .documentation_card {
+        width: calc(100% / 3 - 20px);
+
+        .documentation_img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 70px 0;
+            border-radius: 30px;
+            background: #F2F5FE;
+
+            img {
+                width: 270px;
+            }
+        }
+
+        h4 {
+            margin: 20px 0 10px 0;
+            color: #383838;
+            font-family: $Manrope;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 24.2px */
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+
+        p,
+        span {
+            color: rgba(56, 56, 56, 0.80);
+            font-family: $Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 25.2px */
+        }
+    }
+}
+// documentation
+
+// licenses
+#licenses {
+    margin-bottom: 120px;
+    .wrapper_container {
+        padding: 70px 80px;
+        border-radius: 40px;
+        background: #6E86C0;
+
+    }
+
+    .licenses_title {
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            color: #FFF;
+            font-family: $Manrope;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 145%;
+        }
+    }
+
+    .licenses_btns {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        svg {
+            cursor: pointer;
+        }
+    }
+
+    .licensesSlider {
+        overflow: hidden;
+        .swiper-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+        }
+    }
+}
+// licenses
+
+
+// contact
+#contact {
+    .wrapper_container {
+        position: relative;
+        iframe {
+            border-radius: 40px;
+            height: 780px;
+            width: 100%;
+        }
+
+        .main_container {
+            position: absolute;
+            top: 43px;
+            left: 0;
+        }
+
+    }
+}
+// contact
 
 
 
 
 footer {
-    // overflow: hidden;
+    overflow: hidden;
     background: #6E86C0;
     .footer_top_block {
         transform: translateY(-50%);

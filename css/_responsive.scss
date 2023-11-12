@@ -37,6 +37,14 @@
             
         }
     }
+
+    #documentation {
+        .documentation_card {
+            .documentation_img {
+                padding: 30px 0;
+            }
+        }
+    }
 }
 
 @media (max-width: 1300px) {
@@ -69,6 +77,21 @@
             }
         }
     }
+
+    #documentation {
+        .main_container {
+            gap: 15px;
+        }
+
+        .documentation_card {
+            .documentation_img {
+                padding: 30px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 1155px) {
@@ -92,6 +115,22 @@
 
         .about_effekt_img {
             transform: translateY(0);
+        }
+    }
+
+    #documentation {
+        .main_container {
+            gap: 30px;
+        }
+
+        .documentation_card {
+            width: calc(100% / 2 - 20px);
+            .documentation_img {
+                padding: 30px;
+                img {
+                    width: 100%;
+                }
+            }
         }
     }
 }
@@ -134,6 +173,7 @@
         font-size: 16px;
         margin-bottom: 15px;
     }
+
 
     header {
         .menu_bg {
@@ -227,6 +267,31 @@
             }
         }
     }
+
+    #documentation {
+        .documentation_title {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .documentation_card  {
+            h4 {
+                font-size: 18px;
+            }
+            span,
+            p {
+                font-size: 15px;
+            }
+
+            .documentation_img {
+                padding: 20px 10px;
+                
+                img {
+                    transform: translateY(20px);
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 600px) {
@@ -279,6 +344,19 @@
             h4 {
                 margin-bottom: 12px;
                 height: auto;
+            }
+        }
+    }
+
+    #documentation {
+        padding-bottom: 50px;
+        .documentation_card {
+            width: calc(100%);
+
+            .documentation_img {
+                img {
+                    width: 70%;
+                }
             }
         }
     }
