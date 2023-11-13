@@ -1699,13 +1699,14 @@ header {
         }
 
         .application_right {
-            padding: 70px 30px 77px 70px;
+            height: 100%;
+            padding: 70px 30px 76px 70px;
             border-radius: 40px;
             background: #6E86C0;
 
             span {
                 padding: 12px 26px;
-                color: #6E86C0;
+                color: #FF62B4;
                 font-family: $Manrope;
                 font-size: 22px;
                 font-style: normal;
@@ -1826,6 +1827,212 @@ header {
 }
 // contact
 
+// legislation
+#legislation {
+    .main_container {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 72px;
+    }
+
+    .legislation_text {
+        max-width: 1152px;
+        p {
+            color:#383838;
+            font-family: $Manrope;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 145%;
+            margin-bottom: 12px;
+        }
+
+        span {
+            margin-top: 18px;
+            padding: 30px;
+            border-radius: 30px;
+            background: #F2F5FE;
+            color: #6E86C0;
+            font-family: $Manrope;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 145%;
+        }
+    }
+
+    .legislation_right {
+        max-width: 516px;
+        padding: 50px 40px;
+        border-radius: 40px;
+        background: #6E86C0;
+
+        h3 {
+            color: #FFF;
+            leading-trim: both;
+            text-edge: cap;
+            font-family: $Soyuz;
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%;
+            margin-bottom: 26px;
+        }
+
+        p {
+            color: #FFF;
+            font-family: $Manrope;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 145%;
+            margin-bottom: 100px;
+        }
+
+        .massanger {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+
+    .news_slider {
+        margin-top: 120px;
+        margin-bottom: 120px;
+        .wrapper_container {   
+            border-radius: 40px;
+            background: #F2F5FE;
+        }
+
+        .main_container {
+            display: block;
+            padding: 77px 20px 63px 20px; 
+        }
+
+        .news_slider_head {
+            margin-bottom: 70px;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+
+            span {
+                display: inline-block;
+                padding: 12px 26px;
+                color: #6E86C0;
+                font-family: $Manrope;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%;
+                border-radius: 99px;
+                background-color: #fff;
+            }
+            
+            h2 {
+                margin-top: 24px;
+                display: flex;
+                flex-direction: column;
+                color: #6E86C0;
+                leading-trim: both;
+                text-edge: cap;
+                font-family: $Soyuz;
+                font-size: 54px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110.5%;
+
+            }
+        }
+
+        .newsSlider {
+
+            .massmedia_card {
+        
+                .massmedia_card_img {
+                    position: relative;
+                    img {
+                        width: 100%;
+                    }
+        
+                    .massmedia_date {
+                        position: absolute;
+                        bottom: 16px;
+                        left: 16px;
+                        color:#383838;
+                        font-family: $Manrope;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 145%;
+                        letter-spacing: -0.16px;
+                        border-radius: 40px;
+                        background: #FFF;
+                        padding: 8px 14px;
+                    }
+                }
+        
+                h4 {
+                    margin-top: 21px;
+                    color:#383838;
+                    font-family: $Manrope;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 130%;
+                }
+                
+                p {
+                    margin-top: 14px;
+                    color: rgba(56, 56, 56, 0.80);
+                    font-family: $Manrope;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 145%;
+                }
+        
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin-top: 14px;
+                    color: #FF62B4;
+                    font-family: $Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 145%; /* 31.9px */
+                    transition: .2s ease;
+        
+                    &:hover {
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+        .news_slider_btns {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            transform: translateY(10px);
+
+            .left_btn {
+                transform: rotate(180deg);
+            }
+
+            
+            button {
+                .swiper-button-prev:after {
+                    
+                }
+                width: 70px;
+            }
+        }
+    }
+}
+// legislation
 
 
 
