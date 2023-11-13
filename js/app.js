@@ -67,3 +67,19 @@ var swiper = new Swiper(".partenrsSlider", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+const accardion_btn = document.querySelectorAll(".accardion_btn");
+
+accardion_btn.forEach(accardion_btn => {
+  accardion_btn.addEventListener("click", event => {
+    accardion_btn.classList.toggle("active");
+     const accordionItemBody = accardion_btn.nextElementSibling;
+     if(accardion_btn.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+     }
+     else {
+       accordionItemBody.style.maxHeight = 0;
+     }
+   });
+   
+});
