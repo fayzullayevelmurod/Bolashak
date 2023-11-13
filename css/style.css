@@ -31,6 +31,7 @@
 .lightbox .lb-image {
   width: 100% !important;
   border: none;
+  height: 800px !important;
 }
 
 .lb-container {
@@ -1194,7 +1195,7 @@ header .menu_in .menu_block a {
   background: #F2F5FE;
 }
 #documentation .documentation_card .documentation_img img {
-  width: 270px;
+  width: 270px !important;
 }
 #documentation .documentation_card h4 {
   margin: 20px 0 10px 0;

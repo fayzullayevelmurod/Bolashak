@@ -35,6 +35,7 @@ $Soyuz: 'Soyuz Grotesk';
     .lb-image {
         width: 100% !important;
         border: none;
+        height: 800px !important;
     }
 }
 
@@ -1371,7 +1372,7 @@ header {
             background: #F2F5FE;
 
             img {
-                width: 270px;
+                width: 270px !important;
             }
         }
 
