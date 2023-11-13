@@ -1,9 +1,64 @@
+@media (max-width: 1806px) {
+    #questions {
+        .application {
+            align-items: stretch;
+            .application_right {
+                flex: 1;
+                padding: 45px 30px 30px 40px;
+            }
+
+            .application_left {
+                flex: 2;
+            }
+        }
+    }
+}
+
+@media (max-width: 1690px) {
+    #questions {
+        .application {
+            .application_right {
+                flex: 1;;
+            }
+
+            .application_left {
+                flex: 2;
+                img {
+                    border-radius: 40px;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1600px) {
     header {
         .menu_in {
             .main_container {
                 gap: 70px;
                 
+            }
+        }
+    }
+
+    #questions {
+        .application {
+            .application_right {
+                span {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                    margin-bottom: 25px;
+                }
+
+                p {
+                    font-size: 18px;
+                }
             }
         }
     }
@@ -45,6 +100,7 @@
             }
         }
     }
+
 }
 
 @media (max-width: 1300px) {
@@ -196,6 +252,35 @@
                 box-shadow: 1px -1px 14px 4px rgba(242,245,254,0.75);
                 -webkit-box-shadow: 1px -1px 14px 4px rgba(242,245,254,0.75);
                 -moz-box-shadow: 1px -1px 14px 4px rgba(242,245,254,0.75);
+            }
+        }
+    }
+
+    #questions {
+        .application {
+
+            .wrapper_container {
+                flex-direction: column-reverse;
+            }
+
+            .application_right {
+                h1 {
+                    font-size: 44px;
+                    margin-bottom: 44px;
+                }
+
+                .application_btns {
+                    img {
+                        width: 70px;
+                    }
+                }
+            }
+
+            .application_left {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
             }
         }
     }
@@ -378,6 +463,27 @@
                     transform: translateY(20px);
                 }
             }
+        }
+    }
+
+    #questions {
+        .accardion_btn {
+            padding: 19px;
+            span {
+                font-size: 20px;
+            }
+
+            img {
+                width: 27px;
+            }
+        }
+
+        .accordion-item-body-content {
+            font-size: 16px;
+        }
+
+        .application {
+            margin: 50px 0;
         }
     }
 }
@@ -636,6 +742,37 @@
         }
     }
 
+    #questions {
+        .application {
+            .application_right {
+                padding: 30px;
+
+                span {
+                    font-size: 14px;
+                    padding: 5px 15px;
+                }
+
+                h1 {
+                    margin: 10px 0;
+                    font-size: 25px;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                    line-height: 127%;
+                }
+
+                .application_btns {
+                    gap: 5px;
+                    img {
+                        width: 45px;
+                    }
+                }
+            }
+        }
+    }
+
     footer {
         .footer_top_block {
             border-radius: 0 0 35px 35px;
@@ -688,6 +825,25 @@
             img {
                 width: 10px;
             }
+        }
+    }
+
+    #questions {
+        .accardion_btn {
+            margin-bottom: 8px;
+            padding: 15px;
+
+            span {
+                font-size: 13px;
+            }
+
+            img {
+                width: 15px;
+            }
+        }
+
+        .accordion-item-body-content {
+            font-size: 11px;
         }
     }
 

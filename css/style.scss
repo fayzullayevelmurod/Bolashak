@@ -1035,7 +1035,7 @@ header {
         }
     }
 
-    .questions {
+    .questions {    
         padding-top: 120px;
         position: relative;
         .questions_title {
@@ -1086,6 +1086,7 @@ header {
             align-items: center;
             justify-content: space-between;
             gap: 10px;
+
             span {
                 color: #383838;
                 font-family: $Manrope;
@@ -1093,6 +1094,16 @@ header {
                 font-style: normal;
                 font-weight: 500;
                 line-height: 145%;
+            }
+
+            img {
+                transition: .3s ease;
+            }
+        }
+
+        .accardion_btn.active {
+            img {
+                transform: rotate(220deg);
             }
         }
 
@@ -1613,6 +1624,129 @@ header {
 }
 
 
+// questions
+#questions {
+
+    .accardion_wrapper {
+        position: relative;
+        z-index: 2;
+        background-color: #fff;
+    }
+
+    .accardion_btn {
+        margin-bottom: 14px;
+        padding: 30px;
+        border-radius: 24px;
+        background: #F2F5FE;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        span {
+            color: #383838;
+            font-family: $Manrope;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 145%;
+            text-align: left;
+        }
+
+        img {
+            transition: .3s ease;
+        }
+    }
+
+    .accardion_btn.active {
+        img {
+            transform: rotate(225deg);
+        }
+    }
+
+    .accordion-item-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
+    .accordion-item-body-content {
+        padding: 0 1rem 1rem 1rem;
+        line-height: 1.5rem;
+        color: #383838;
+        font-family: $Manrope;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 145%;
+    }
+
+    .application {
+        margin: 106px 0;
+        .wrapper_container {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .application_left {
+            width: 1075px;
+
+            // img {
+            //     width: 100%;
+            // }
+        }
+
+        .application_right {
+            padding: 70px 30px 77px 70px;
+            border-radius: 40px;
+            background: #6E86C0;
+
+            span {
+                padding: 12px 26px;
+                color: #6E86C0;
+                font-family: $Manrope;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%;
+                border-radius: 99px;
+                background: #FFF;
+            }
+
+            h1 {
+                margin-top: 24px;
+                margin-bottom: 50px;
+                color: #FFF;
+                leading-trim: both;
+                text-edge: cap;
+                font-family: $Soyuz;
+                font-size: 54px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110.5%;
+            }
+
+            p {
+                color: #FFF;
+                font-family: $Manrope;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 145%;
+                margin-bottom: 50px;
+            }
+
+            .application_btns {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+}
+// questions
 
 // contact
 #contact {

@@ -957,6 +957,12 @@ header .menu_in .menu_block a {
   font-weight: 500;
   line-height: 145%;
 }
+#home .questions .accardion_btn img {
+  transition: 0.3s ease;
+}
+#home .questions .accardion_btn.active img {
+  transform: rotate(220deg);
+}
 #home .questions .accordion-item-body {
   max-height: 0;
   overflow: hidden;
@@ -1397,6 +1403,107 @@ header .menu_in .menu_block a {
   background-color: #FF62B4;
 }
 
+#questions .accardion_wrapper {
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+}
+#questions .accardion_btn {
+  margin-bottom: 14px;
+  padding: 30px;
+  border-radius: 24px;
+  background: #F2F5FE;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+#questions .accardion_btn span {
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  text-align: left;
+}
+#questions .accardion_btn img {
+  transition: 0.3s ease;
+}
+#questions .accardion_btn.active img {
+  transform: rotate(225deg);
+}
+#questions .accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+#questions .accordion-item-body-content {
+  padding: 0 1rem 1rem 1rem;
+  line-height: 1.5rem;
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+}
+#questions .application {
+  margin: 106px 0;
+}
+#questions .application .wrapper_container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 24px;
+}
+#questions .application .application_left {
+  width: 1075px;
+}
+#questions .application .application_right {
+  padding: 70px 30px 77px 70px;
+  border-radius: 40px;
+  background: #6E86C0;
+}
+#questions .application .application_right span {
+  padding: 12px 26px;
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  border-radius: 99px;
+  background: #FFF;
+}
+#questions .application .application_right h1 {
+  margin-top: 24px;
+  margin-bottom: 50px;
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Soyuz Grotesk";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110.5%;
+}
+#questions .application .application_right p {
+  color: #FFF;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  margin-bottom: 50px;
+}
+#questions .application .application_right .application_btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 #contact {
   margin-bottom: 150px;
 }
@@ -1592,9 +1699,46 @@ footer .footer_bottom p {
   line-height: 145%; /* 26.1px */
 }
 
+@media (max-width: 1806px) {
+  #questions .application {
+    align-items: stretch;
+  }
+  #questions .application .application_right {
+    flex: 1;
+    padding: 45px 30px 30px 40px;
+  }
+  #questions .application .application_left {
+    flex: 2;
+  }
+}
+@media (max-width: 1690px) {
+  #questions .application .application_right {
+    flex: 1;
+  }
+  #questions .application .application_left {
+    flex: 2;
+  }
+  #questions .application .application_left img {
+    border-radius: 40px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
 @media (max-width: 1600px) {
   header .menu_in .main_container {
     gap: 70px;
+  }
+  #questions .application .application_right span {
+    font-size: 18px;
+  }
+  #questions .application .application_right h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  #questions .application .application_right p {
+    font-size: 18px;
   }
 }
 @media (max-width: 1400px) {
@@ -1715,6 +1859,22 @@ footer .footer_bottom p {
     box-shadow: 1px -1px 14px 4px rgba(242, 245, 254, 0.75);
     -webkit-box-shadow: 1px -1px 14px 4px rgba(242, 245, 254, 0.75);
     -moz-box-shadow: 1px -1px 14px 4px rgba(242, 245, 254, 0.75);
+  }
+  #questions .application .wrapper_container {
+    flex-direction: column-reverse;
+  }
+  #questions .application .application_right h1 {
+    font-size: 44px;
+    margin-bottom: 44px;
+  }
+  #questions .application .application_right .application_btns img {
+    width: 70px;
+  }
+  #questions .application .application_left {
+    width: 100%;
+  }
+  #questions .application .application_left img {
+    width: 100%;
   }
   footer .footer_top {
     flex-wrap: wrap;
@@ -1843,6 +2003,21 @@ footer .footer_bottom p {
   }
   #documentation .documentation_card .documentation_img img {
     transform: translateY(20px);
+  }
+  #questions .accardion_btn {
+    padding: 19px;
+  }
+  #questions .accardion_btn span {
+    font-size: 20px;
+  }
+  #questions .accardion_btn img {
+    width: 27px;
+  }
+  #questions .accordion-item-body-content {
+    font-size: 16px;
+  }
+  #questions .application {
+    margin: 50px 0;
   }
 }
 @media (max-width: 600px) {
@@ -2018,6 +2193,28 @@ footer .footer_bottom p {
     max-width: 100%;
     font-size: 14px;
   }
+  #questions .application .application_right {
+    padding: 30px;
+  }
+  #questions .application .application_right span {
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+  #questions .application .application_right h1 {
+    margin: 10px 0;
+    font-size: 25px;
+  }
+  #questions .application .application_right p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 127%;
+  }
+  #questions .application .application_right .application_btns {
+    gap: 5px;
+  }
+  #questions .application .application_right .application_btns img {
+    width: 45px;
+  }
   footer .footer_top_block {
     border-radius: 0 0 35px 35px;
     height: 70px;
@@ -2058,5 +2255,18 @@ footer .footer_bottom p {
   }
   header .language img {
     width: 10px;
+  }
+  #questions .accardion_btn {
+    margin-bottom: 8px;
+    padding: 15px;
+  }
+  #questions .accardion_btn span {
+    font-size: 13px;
+  }
+  #questions .accardion_btn img {
+    width: 15px;
+  }
+  #questions .accordion-item-body-content {
+    font-size: 11px;
   }
 }/*# sourceMappingURL=style.css.map */
