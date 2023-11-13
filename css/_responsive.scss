@@ -93,6 +93,12 @@
         }
     }
 
+    #massmedia {
+        .massmedia_card {
+            width: calc(100% /3 - 24px);
+        }
+    }
+
     #contact {
         .wrapper_container {
 
@@ -166,6 +172,12 @@
         }
         .employees_card {
             width: calc(100% / 2 - 10px);
+        }
+    }
+
+    #massmedia {
+        .massmedia_card {
+            width: calc(100% /2 - 24px);
         }
     }
 
@@ -271,6 +283,40 @@
                 img { 
                     width: 100%;
                 }
+            }
+        }
+    }
+
+    #massmedia {
+        margin-bottom: 50px;
+        .massmedia_card {
+            margin-bottom: 20px;
+            width: calc(100% /2 - 14px);
+            h4 {
+                margin-top: 10px;
+                font-size: 18px;
+            }
+
+            p {
+                margin-top: 5px;
+                font-size: 16px;
+            }
+
+            a {
+                font-size: 17px;
+            }
+        }
+
+        .massmedia_pagination {
+            margin-top: 20px;
+
+            a {
+                margin: 10px;
+
+            }
+            a:nth-child(1) {
+                margin-left: 0;
+                margin-right: 10px;
             }
         }
     }
@@ -487,6 +533,49 @@
         .footer_bottom {
             p {
                 font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #massmedia {
+        .massmedia_card {
+            margin-bottom: 20px;
+            width: calc(100%);
+            h4 {
+                margin-top: 15px;
+                font-size: 21px;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 18px;
+            }
+
+            a {
+                font-size: 19px;
+            }
+        }
+
+        .massmedia_pagination {
+            margin-top: 20px;
+
+            a {
+                font-size: 15px;
+                margin: 10px;
+
+            }
+            a:nth-child(1) {
+                margin-left: 0;
+                margin-right: 10px;
+            }
+
+            button {
+                font-size: 14px;
+                width: 35px;
+                height: 35px;
+                margin: 0 3px;
             }
         }
     }
