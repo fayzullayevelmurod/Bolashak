@@ -972,6 +972,7 @@ header .menu_in .menu_block a {
   line-height: 145%;
 }
 #home .contact_block {
+  margin-top: 120px;
   margin-bottom: 100px;
 }
 #home .contact_block .wrapper_container {
