@@ -1888,6 +1888,9 @@ footer .footer_bottom p {
   .link_path a {
     font-size: 12px;
   }
+  .link_path span svg {
+    width: 5px;
+  }
   .main_title {
     margin-bottom: 10px;
     font-size: 45px;
