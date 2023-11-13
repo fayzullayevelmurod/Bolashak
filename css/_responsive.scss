@@ -92,6 +92,29 @@
             }
         }
     }
+
+    #contact {
+        .wrapper_container {
+
+            iframe {
+                height: 690px;
+            }
+
+            .contact {
+                padding: 40px 62px 40px 50px;
+                max-width: 500px;
+
+                a {
+                    font-size: 25px;
+                }
+            }
+
+            .main_container {
+                top: 30px;
+                left: 30px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1155px) {
@@ -143,6 +166,25 @@
         }
         .employees_card {
             width: calc(100% / 2 - 10px);
+        }
+    }
+
+    #contact {
+        margin-bottom: 50px;
+        .wrapper_container {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 30px;
+            .main_container {
+                position: static;
+            }
+
+            .contact {
+                border: 1px solid #F2F5FE;
+                box-shadow: 1px -1px 14px 4px rgba(242,245,254,0.75);
+                -webkit-box-shadow: 1px -1px 14px 4px rgba(242,245,254,0.75);
+                -moz-box-shadow: 1px -1px 14px 4px rgba(242,245,254,0.75);
+            }
         }
     }
 
@@ -361,18 +403,90 @@
         }
     }
 
+
+    #contact {
+
+        .wrapper_container {
+            iframe {
+                height: 400px;
+            }
+        }
+        .main_container {
+            padding: 0;
+            .contact {
+                padding: 25px;
+
+                a {
+                    font-size: 20px;
+                }
+
+                span {
+                    font-size: 16px;
+                }
+
+                .contact_btns {
+                    margin-top: 50px;
+                }
+            }
+        }
+
+        .contact_btns {
+            a {
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+
     footer {
         .footer_top {
             .footer_block {
                 width: 100%;
 
+                .letsinziya  {
+                    font-size: 16px;
+                }
+
                 .address {
-                    margin-top: 40px;
+                    margin-top: 30px;
                 }
 
                 .address_end {
                     margin-top: 30px;
                 }
+
+                .footer_text {
+                    font-size: 16px;
+                }
+
+                .footer_link {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+
+                .phone {
+                    font-size: 20px;
+                }
+
+                .messengers {
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+
+                .button_three {
+                    height: 45px;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .footer_bottom {
+            p {
+                font-size: 15px;
             }
         }
     }
