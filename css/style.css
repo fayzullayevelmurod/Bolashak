@@ -1581,6 +1581,15 @@ header .menu_in .menu_block a {
 #legislation .legislation_text {
   max-width: 1152px;
 }
+#legislation .legislation_text h4 {
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 145%;
+  margin-bottom: 16px;
+}
 #legislation .legislation_text p {
   color: #383838;
   font-family: "Manrope", sans-serif;
@@ -1602,11 +1611,21 @@ header .menu_in .menu_block a {
   font-weight: 700;
   line-height: 145%;
 }
+#legislation .internal_img {
+  width: 100%;
+  margin-bottom: 20px;
+}
 #legislation .legislation_right {
+  position: relative;
   width: 516px;
   padding: 50px 40px;
   border-radius: 40px;
   background: #6E86C0;
+}
+#legislation .legislation_right .effekt {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 #legislation .legislation_right h3 {
   width: 400px;
@@ -1745,6 +1764,167 @@ header .menu_in .menu_block a {
 #legislation .news_slider .news_slider_btns button {
   width: 70px;
 }
+#price .price_title {
+  position: relative;
+}
+#price .price_title .price_effekt {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  z-index: -1;
+}
+#price .price_title p {
+  max-width: 930px;
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  padding-bottom: 40px;
+}
+#price .price_services {
+  margin-bottom: 100px;
+  background-color: #fff;
+}
+#price .price_services .price_services_title {
+  display: flex;
+  align-items: center;
+  border-radius: 30px 30px 0px 0px;
+  background: #F2F5FE;
+  padding: 22px 50px;
+  gap: 110px;
+}
+#price .price_services .price_services_title .price_services_left {
+  width: 979px;
+}
+#price .price_services .price_services_title .price_services_right {
+  width: 551px;
+}
+#price .price_services .price_services_title h3 {
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%;
+}
+#price .price_services .price_block {
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #F2F5FE;
+  gap: 110px;
+}
+#price .price_services .price_block .price_block_left {
+  width: 979px;
+}
+#price .price_services .price_block .price_block_left h4 {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 145%;
+  margin-bottom: 8px;
+}
+#price .price_services .price_block .price_block_left p {
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+}
+#price .price_services .price_block .price_block_right {
+  width: 551px;
+}
+#price .price_services .price_block .price_block_right h4 {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 145%;
+  margin-bottom: 8px;
+}
+#price .price_services .price_block .price_block_right p {
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+}
+#price .price_services .price_block:last-child {
+  border-radius: 0px 0px 30px 30px;
+}
+#price .contact_block .wrapper_container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+#price .contact_block .contact_block_left {
+  width: 1075px;
+  padding: 70px;
+  border-radius: 40px;
+  background: rgba(255, 98, 180, 0.07);
+}
+#price .contact_block .contact_block_left h3 {
+  color: #FF62B4;
+  font-family: "Soyuz Grotesk";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110.5%;
+  margin-bottom: 30px;
+}
+#price .contact_block .contact_block_left p {
+  max-width: 587px;
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin-bottom: 50px;
+}
+#price .contact_block .contact_block_left .contact_block_left_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#price .contact_block .contact_block_left .btns_block_one {
+  padding: 22px 40px;
+  border-radius: 55px;
+  background: #FF62B4;
+  color: #FFF;
+  text-align: center;
+  font-family: "Soyuz Grotesk";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+#price .contact_block .contact_block_left .btns_block_two {
+  padding: 22px 40px;
+  color: #FF62B4;
+  text-align: center;
+  font-family: "Soyuz Grotesk";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  border-radius: 55px;
+  background: rgba(255, 98, 180, 0.16);
+}
+#price .contact_block .contact_block_right {
+  width: 781px;
+}
+#price .contact_block .contact_block_right img {
+  width: 100%;
+}
+
 footer {
   overflow: hidden;
   background: #6E86C0;
@@ -1943,6 +2123,9 @@ footer .footer_bottom p {
   #legislation .legislation_text .main_title {
     font-size: 65px;
   }
+  #legislation .legislation_text h4 {
+    font-size: 25px;
+  }
 }
 @media (max-width: 1300px) {
   header .menu {
@@ -2029,6 +2212,9 @@ footer .footer_bottom p {
   #legislation .legislation_right {
     padding: 40px 30px;
   }
+  #legislation .legislation_right .effekt {
+    width: 55%;
+  }
   #legislation .legislation_right h3 {
     width: 350px;
     font-size: 30px;
@@ -2091,6 +2277,12 @@ footer .footer_bottom p {
 @media (max-width: 880px) {
   #legislation .main_container {
     flex-direction: column;
+  }
+  #legislation .internal_img {
+    width: 370px;
+  }
+  #legislation .legislation_right_in {
+    margin: 0 auto;
   }
   #legislation .legislation_right {
     width: 370px;
@@ -2385,6 +2577,10 @@ footer .footer_bottom p {
     margin-bottom: 10px;
     font-size: 25px;
   }
+  #legislation .legislation_text h4 {
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
   #legislation .legislation_text p {
     margin-bottom: 7px;
     font-size: 13px;
@@ -2392,6 +2588,9 @@ footer .footer_bottom p {
   #legislation .legislation_text span {
     font-size: 13px;
     padding: 15px;
+  }
+  #legislation .internal_img {
+    width: 100%;
   }
   #legislation .legislation_right {
     border-radius: 20px;
@@ -2416,6 +2615,7 @@ footer .footer_bottom p {
   #legislation .news_slider .news_slider_head {
     margin-bottom: 40px;
     flex-direction: column;
+    align-items: start;
   }
   #legislation .news_slider .news_slider_head span {
     padding: 5px 16px;
