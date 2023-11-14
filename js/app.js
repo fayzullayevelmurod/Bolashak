@@ -2,8 +2,8 @@ var swiper = new Swiper(".licensesSlider", {
     slidesPerView: 1,
     spaceBetween: 30,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".licenses_right_btn",
+      prevEl: ".licenses_left_btn",
     },
     breakpoints: {
         800: {
@@ -36,11 +36,16 @@ var swiper = new Swiper(".newsSlider", {
     },
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".right_btn",
+    prevEl: ".left_btn",
   },
 });
 
+var swiper = new Swiper(".homeSlider", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
 
 var swiper = new Swiper(".partenrsSlider", {
   slidesPerView: 6,
@@ -83,3 +88,4 @@ accardion_btn.forEach(accardion_btn => {
    });
    
 });
+

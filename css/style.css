@@ -668,11 +668,16 @@ header .menu_in .menu_block a {
   bottom: 70px;
   width: 100%;
 }
+#home .news_slider {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
 #home .news_slider .wrapper_container {
   border-radius: 40px;
-  background: rgba(255, 98, 180, 0.07);
+  background: #F2F5FE;
 }
 #home .news_slider .main_container {
+  display: block;
   padding: 77px 20px 63px 20px;
 }
 #home .news_slider .news_slider_head {
@@ -684,7 +689,7 @@ header .menu_in .menu_block a {
 #home .news_slider .news_slider_head span {
   display: inline-block;
   padding: 12px 26px;
-  color: #FF62B4;
+  color: #6E86C0;
   font-family: "Manrope", sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -697,7 +702,7 @@ header .menu_in .menu_block a {
   margin-top: 24px;
   display: flex;
   flex-direction: column;
-  color: #FF62B4;
+  color: #6E86C0;
   leading-trim: both;
   text-edge: cap;
   font-family: "Soyuz Grotesk";
@@ -705,6 +710,12 @@ header .menu_in .menu_block a {
   font-style: normal;
   font-weight: 700;
   line-height: 110.5%;
+}
+#home .news_slider .news_slider_head .right_btn {
+  transform: translateY(3px);
+}
+#home .news_slider .news_slider_head .swiper-button-disabled {
+  opacity: 0.7;
 }
 #home .news_slider .newsSlider .massmedia_card .massmedia_card_img {
   position: relative;
@@ -1255,6 +1266,16 @@ header .menu_in .menu_block a {
 #licenses .licenses_btns svg {
   cursor: pointer;
 }
+#licenses .licenses_btns .licenses_left_btn,
+#licenses .licenses_btns .licenses_right_btn {
+  cursor: pointer;
+}
+#licenses .licenses_btns .licenses_left_btn {
+  transform: rotate(180deg);
+}
+#licenses .licenses_btns .swiper-button-disabled {
+  opacity: 0.7;
+}
 #licenses .licensesSlider .documentation_card .documentation_img {
   display: flex;
   align-items: center;
@@ -1696,6 +1717,12 @@ header .menu_in .menu_block a {
   font-weight: 700;
   line-height: 110.5%;
 }
+#legislation .news_slider .news_slider_head .right_btn {
+  transform: translateY(3px);
+}
+#legislation .news_slider .news_slider_head .swiper-button-disabled {
+  opacity: 0.7;
+}
 #legislation .news_slider .newsSlider .massmedia_card .massmedia_card_img {
   position: relative;
 }
@@ -1861,7 +1888,7 @@ header .menu_in .menu_block a {
 }
 #price .contact_block .wrapper_container {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 24px;
 }
 #price .contact_block .contact_block_left {
@@ -2094,6 +2121,26 @@ footer .footer_bottom p {
   #questions .application .application_right p {
     font-size: 18px;
   }
+  #price .contact_block .contact_block_left {
+    padding: 40px;
+  }
+  #price .contact_block .contact_block_left h3 {
+    font-size: 40px;
+  }
+  #price .contact_block .contact_block_left .btns_block_two,
+  #price .contact_block .contact_block_left .btns_block_one {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+  #price .contact_block .contact_block_left .messanger img {
+    width: 50px;
+  }
+  #home .mission .main_container .mission_left {
+    flex: 1;
+  }
+  #home .mission .main_container .mission_right {
+    flex: 1;
+  }
 }
 @media (max-width: 1400px) {
   #employees .employees_card .employess_text {
@@ -2169,6 +2216,69 @@ footer .footer_bottom p {
     top: 30px;
     left: 30px;
   }
+  #price .main_title {
+    font-size: 65px;
+    margin-bottom: 20px;
+  }
+  #price .price_title .price_effekt {
+    width: 20%;
+  }
+  #price .price_title p {
+    font-size: 16px;
+  }
+  #price .price_services .price_services_title {
+    padding: 20px 40px;
+  }
+  #price .price_services .price_services_title h3 {
+    font-size: 20px;
+  }
+  #price .price_services .price_block {
+    padding: 20px 40px;
+  }
+  #price .price_services .price_block .price_block_right h4,
+  #price .price_services .price_block .price_block_left h4 {
+    font-size: 20px;
+  }
+  #price .price_services .price_block .price_block_right p,
+  #price .price_services .price_block .price_block_left p {
+    font-size: 16px;
+  }
+  #price .contact_block .contact_block_left {
+    padding: 40px;
+  }
+  #price .contact_block .contact_block_left h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  #price .contact_block .contact_block_left p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #price .contact_block .contact_block_left .btns_block_two,
+  #price .contact_block .contact_block_left .btns_block_one {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+  #price .contact_block .contact_block_left .messanger img {
+    width: 50px;
+  }
+  #price .contact_block .contact_block_left .contact_block_left_btns {
+    gap: 20px;
+    flex-direction: column;
+  }
+  #home .mission {
+    margin-top: 50px;
+  }
+  #home .mission .main_container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #home .mission .main_container .mission_left h1 {
+    max-width: 100%;
+  }
+  #home .mission .main_container .mission_right {
+    max-width: 100%;
+  }
 }
 @media (max-width: 1155px) {
   header .header_right .number {
@@ -2226,6 +2336,20 @@ footer .footer_bottom p {
   #legislation .legislation_right img {
     width: 60px;
   }
+  #home .opportunity {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #home .opportunity .main_container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #home .opportunity .opportunity_text {
+    max-width: 100%;
+  }
+  #home .opportunity .opportunity_img {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 993px) {
   #employees .main_container {
@@ -2268,6 +2392,26 @@ footer .footer_bottom p {
     width: 100%;
   }
   #questions .application .application_left img {
+    width: 100%;
+  }
+  #price .price_services {
+    margin-bottom: 50px;
+  }
+  #price .price_services .price_services_title {
+    gap: 10px;
+    padding: 15px 25px;
+  }
+  #price .price_services .price_block {
+    gap: 20px;
+    padding: 15px 25px;
+  }
+  #price .contact_block .wrapper_container {
+    flex-direction: column;
+  }
+  #price .contact_block .contact_block_left {
+    width: 100%;
+  }
+  #price .contact_block .contact_block_right {
     width: 100%;
   }
   footer .footer_top {
@@ -2353,6 +2497,39 @@ footer .footer_bottom p {
   header .messenger a img {
     width: 100%;
   }
+  #home .news_slider .news_slider_head {
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+  #home .news_slider .news_slider_head h2 {
+    font-size: 45px;
+  }
+  #home .news_slider .news_slider_btns {
+    gap: 10px;
+    transform: translateY(0);
+    margin-left: auto;
+  }
+  #home .news_slider .news_slider_btns .left_btn,
+  #home .news_slider .news_slider_btns .right_btn {
+    width: 50px;
+  }
+  #home .news_slider .news_slider_btns .left_btn img,
+  #home .news_slider .news_slider_btns .right_btn img {
+    width: 100%;
+  }
+  #home .news_slider .news_slider_btns .right_btn {
+    transform: translateY(2px);
+  }
+  #home .news_slider .news_slider_btns .swiper-button-disabled {
+    opacity: 0.7;
+  }
+  #home #home .opportunity .opportunity_img {
+    flex-direction: column;
+    width: 100%;
+  }
+  #home #home .opportunity .opportunity_img img {
+    display: block;
+  }
   #massmedia {
     margin-bottom: 50px;
   }
@@ -2434,6 +2611,92 @@ footer .footer_bottom p {
   #questions .application {
     margin: 50px 0;
   }
+  #price .main_title {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  #price .price_title p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  #price .price_services .price_services_title {
+    padding: 15px;
+  }
+  #price .price_services .price_services_title .price_services_right {
+    display: none;
+  }
+  #price .price_services .price_services_title .price_services_left {
+    width: 100%;
+  }
+  #price .price_services .price_block {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+  #price .price_services .price_block .price_block_left,
+  #price .price_services .price_block .price_block_right {
+    width: 100%;
+  }
+  #price .price_services .price_block .price_block_left h4,
+  #price .price_services .price_block .price_block_right h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  #price .price_services .price_block .price_block_left p,
+  #price .price_services .price_block .price_block_right p {
+    font-size: 14px;
+  }
+  #price .contact_block .wrapper_container {
+    flex-direction: column;
+  }
+  #price .contact_block .contact_block_left {
+    padding: 25px;
+    width: 100%;
+  }
+  #price .contact_block .contact_block_left h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  #price .contact_block .contact_block_left p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  #price .contact_block .contact_block_left .contact_block_left_btns .btns {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #price .contact_block .contact_block_left .contact_block_left_btns .btns .btns_block_one,
+  #price .contact_block .contact_block_left .contact_block_left_btns .btns .btns_block_two {
+    margin: 0 auto;
+  }
+  #price .contact_block .contact_block_right {
+    width: 100%;
+  }
+  #legislation .news_slider .news_slider_head {
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+  #legislation .news_slider .news_slider_head h2 {
+    font-size: 45px;
+  }
+  #legislation .news_slider .news_slider_btns {
+    gap: 10px;
+    transform: translateY(0);
+    margin-left: auto;
+  }
+  #legislation .news_slider .news_slider_btns .left_btn,
+  #legislation .news_slider .news_slider_btns .right_btn {
+    width: 50px;
+  }
+  #legislation .news_slider .news_slider_btns .left_btn img,
+  #legislation .news_slider .news_slider_btns .right_btn img {
+    width: 100%;
+  }
+  #legislation .news_slider .news_slider_btns .right_btn {
+    transform: translateY(2px);
+  }
 }
 @media (max-width: 600px) {
   .modal_wrapper .main_modal {
@@ -2483,6 +2746,39 @@ footer .footer_bottom p {
   }
   #documentation .documentation_card .documentation_img img {
     width: 70%;
+  }
+  #licenses .licenses_title {
+    margin-bottom: 20px;
+  }
+  #licenses .licenses_title h2 {
+    font-size: 25px;
+  }
+  #licenses .licenses_title .licenses_btns {
+    gap: 10px;
+  }
+  #licenses .licenses_title .licenses_left_btn,
+  #licenses .licenses_title .licenses_right_btn {
+    width: 50px;
+  }
+  #licenses .licenses_title .licenses_left_btn img,
+  #licenses .licenses_title .licenses_right_btn img {
+    width: 100%;
+  }
+  #licenses .licensesSlider .documentation_card h4 {
+    font-size: 19px;
+  }
+  #licenses .licensesSlider .documentation_card p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  #licenses .licensesSlider .documentation_card .documentation_img {
+    padding: 30px 0;
+  }
+  #licenses .licensesSlider .documentation_card .documentation_img img {
+    transform: translateY(17px);
+  }
+  #licenses .wrapper_container {
+    padding: 30px 20px;
   }
   #contact .wrapper_container iframe {
     height: 400px;
