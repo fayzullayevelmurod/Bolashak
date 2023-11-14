@@ -1863,12 +1863,13 @@ header {
     }
 
     .legislation_right {
-        max-width: 516px;
+        width: 516px;
         padding: 50px 40px;
         border-radius: 40px;
         background: #6E86C0;
 
         h3 {
+            width: 400px;
             color: #FFF;
             leading-trim: both;
             text-edge: cap;

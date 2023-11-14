@@ -118,6 +118,19 @@
         }
     }
 
+    #legislation {
+
+        .main_container {
+            gap: 45px;
+        }
+
+        .legislation_text {
+            .main_title  {
+                font-size: 65px;
+            }
+        }
+    }
+
 }
 
 @media (max-width: 1300px) {
@@ -235,6 +248,47 @@
             }
         }
     }
+
+    #legislation {
+
+        .main_container {
+            gap: 20px;
+        }
+
+        .legislation_text {
+            .main_title {
+                margin-bottom: 20px;
+                font-size: 45px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            
+            span {
+                font-size: 18px;
+                padding: 20px;
+            }
+        }
+
+        .legislation_right {
+            padding: 40px 30px;
+            h3 {
+                width: 350px;
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+            img {
+                width: 60px;
+            }
+        }
+    }
 }
 
 @media (max-width: 993px) {
@@ -307,6 +361,24 @@
             flex-wrap: wrap;
         }
     }
+}
+
+@media (max-width: 880px) {
+    #legislation {
+        .main_container {
+            flex-direction: column;
+        }
+
+        .legislation_right {
+            width: 370px;
+            margin: 0 auto;
+        }
+
+        .news_slider {
+            margin: 50px 0;
+        }
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -705,6 +777,98 @@
                 width: 35px;
                 height: 35px;
                 margin: 0 3px;
+            }
+        }
+    }
+
+    #legislation {
+
+        .legislation_text {
+            .main_title {
+                margin-bottom: 10px;
+                font-size: 25px;
+            }
+
+            p {
+                margin-bottom: 7px;
+                font-size: 13px;
+            }
+
+            
+            span {
+                font-size: 13px;
+                padding: 15px;
+            }
+        }
+
+        .legislation_right {
+            border-radius: 20px;
+            width: 100%;
+            padding: 20px;
+            h3 {
+                width: 100%;
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 13px;
+                margin-bottom: 30px;
+            }
+
+            img {
+                width: 40px;
+            }
+        }
+
+        .news_slider  {
+            .main_container {
+                padding: 40px 10px 40px 10px; 
+            }
+
+            .news_slider_head  {
+                margin-bottom: 40px;
+                flex-direction: column;
+                span {
+                    padding: 5px 16px;
+                    font-size: 13px;
+                }
+
+                h2 {
+                    width: 100%;
+                    margin-top: 5px;
+                    font-size: 25px;
+                }
+            }
+
+            .newsSlider  {
+                .massmedia_card  {
+                    h4 {
+                        font-size: 16px;
+                        margin-top: 5px;
+                    }
+
+                    p {
+                        font-size: 13px;
+                        margin-top: 5px;
+                    }
+
+                    a {
+                        font-size: 16px;
+
+                        img {
+                            width: 15px;
+                        }
+                    }
+
+                    .massmedia_card_img {
+                        .massmedia_date {
+                            padding: 5px 10px;
+                            font-size: 12px;
+                        }   
+                    }
+                }
+                
             }
         }
     }
