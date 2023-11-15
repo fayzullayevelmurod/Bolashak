@@ -1757,6 +1757,24 @@
         }
     }
 
+    #home {
+        .opportunity {
+            .opportunity_img {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .application {
+            .application_right {
+                h1 {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
 
     footer {
         .footer_top_block {
@@ -1832,6 +1850,191 @@
                 font-size: 11px;
             }
         }
+
+        .mission {
+            .main_container {
+                gap: 15px;
+                .mission_left {
+
+                    span {
+                        margin-bottom: 10px;
+                        font-size: 14px;
+                    }
+
+                    h1 {
+                        font-size: 25px;
+                        margin-bottom: 15px;
+                    }
+                }
+
+                .mission_right {
+                    p {
+                        font-size: 14px;
+                    }
+
+                    .mission_right_statistic  {
+                        h4 {
+                            font-size: 16px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .mission_bottom {
+            margin-top: 30px;
+        }
+
+        .opportunity {
+            margin-top: 30px;
+            .opportunity_text {
+
+                span {
+                    font-size: 14px;
+                }
+                
+                h1 {
+                    font-size: 25px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .news_slider {
+            .news_slider_head {
+                span {
+                    font-size: 14px;
+                }
+
+                h2 {
+                    font-size: 25px
+                }
+            }
+
+            .newsSlider  {
+                .massmedia_card {
+                    h4 {
+                        font-size: 20px;
+                    }
+    
+                    p {
+                        font-size: 14px;
+                    }
+
+                    a {
+                        font-size: 15px;
+
+                        img {
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .partners_slider {
+            .partners_title {
+                span {
+                    font-size: 14px;
+                }
+
+                h1 {
+                    font-size: 25px;
+                }
+            }
+
+            .partenrsSlider  {
+                .partners_card  {
+                    h3 {
+                        font-size: 18px;
+                    }
+    
+                    a {
+                        font-size: 16px;
+                    }
+                }
+
+            }
+
+        }
+
+        .application {
+            .application_right {
+                padding: 25px;
+
+                span {
+                    font-size: 14px;
+                }
+
+                h1 {
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    font-size: 25px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                img {
+                    width: 35px;
+                }
+            }
+        }
+
+        .questions {
+            .questions_title {
+                span {
+                    font-size: 16px;
+                }
+
+                h1 {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .contact_block {
+            .wrapper_container {
+                .contact_block_left {
+                    padding: 20px;
+
+                    h1 {
+                        font-size: 25px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+
+                    .contact_block_left_btns  {
+                        button {
+                            padding: 10px 13px;
+                            font-size: 14px;
+                        }
+
+                        .massanger  {
+                            gap: 10px;
+
+                            a {
+                                width: 35px;
+                            }
+                            img {
+                                width: 35px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            
     }
 
     #questions {

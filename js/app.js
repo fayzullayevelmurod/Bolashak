@@ -6,7 +6,7 @@ var swiper = new Swiper(".licensesSlider", {
       prevEl: ".licenses_left_btn",
     },
     breakpoints: {
-        800: {
+        250: {
           slidesPerView: 1,
         },
         1000: {
@@ -22,7 +22,7 @@ var swiper = new Swiper(".newsSlider", {
   slidesPerView: 4,
   spaceBetween: 24,
   breakpoints: {
-    320: {
+    250: {
       slidesPerView: 1,
     },
     768: {
@@ -51,7 +51,7 @@ var swiper = new Swiper(".partenrsSlider", {
   slidesPerView: 6,
   spaceBetween: 24,
   breakpoints: {
-    320: {
+    250: {
       slidesPerView: 1,
     },
     576: {
