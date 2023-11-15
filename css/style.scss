@@ -1074,8 +1074,13 @@ header {
             position: absolute;
             top: 0;
             right: 0;
+
             .partners_btn_left {
                 transform: rotate(180deg);
+            }
+
+            .partners_btn_right {
+                transform: translateY(3px);
             }
         }
 
@@ -1124,11 +1129,8 @@ header {
         }
 
         .application_left {
-            width: 1075px;
+            max-width: 1075px;
 
-            // img {
-            //     width: 100%;
-            // }
         }
 
         .application_right {
@@ -1149,6 +1151,7 @@ header {
             }
 
             h1 {
+                width: 570px;
                 margin-top: 24px;
                 margin-bottom: 50px;
                 color: #FFF;
@@ -1179,7 +1182,7 @@ header {
         }
     }
 
-    .questions {    
+    .questions {
         padding-top: 120px;
         position: relative;
         .questions_title {
@@ -1192,12 +1195,15 @@ header {
             }
             
             span {
+                padding: 12px 26px;
                 color: #6E86C0;
                 font-family: $Manrope;
                 font-size: 22px;
                 font-style: normal;
                 font-weight: 500;
                 line-height: 140%;
+                border-radius: 99px;
+                background: rgba(212, 224, 253, 0.50);
             }
 
             h1 {
@@ -1232,6 +1238,7 @@ header {
             gap: 10px;
 
             span {
+                text-align: left;
                 color: #383838;
                 font-family: $Manrope;
                 font-size: 24px;
@@ -1247,7 +1254,7 @@ header {
 
         .accardion_btn.active {
             img {
-                transform: rotate(220deg);
+                transform: rotate(225deg);
             }
         }
 
@@ -1279,6 +1286,7 @@ header {
         }
 
         .contact_block_left {
+            width: 1075px;
             padding: 70px;
             border-radius: 40px;
             background: rgba(255, 98, 180, 0.07);

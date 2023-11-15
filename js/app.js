@@ -68,8 +68,8 @@ var swiper = new Swiper(".partenrsSlider", {
     },
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".partners_btn_right",
+    prevEl: ".partners_btn_left",
   },
 });
 
