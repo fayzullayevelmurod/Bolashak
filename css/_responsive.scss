@@ -253,6 +253,42 @@
         }
     }
 
+    #home {
+        .home_slider {
+
+            padding: 50px;
+
+            span {
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 18px;
+                margin-bottom: 50px;
+            }
+
+            .pagination  {
+                gap: 10px;
+            }
+
+            .home_btns {
+                button {
+                    height: 55px;
+                    width: 230px;
+                    font-size: 20px;
+                }
+            }
+
+            .home_slider_effekt {
+                width: 30%;
+            }
+        }
+    }
+
 }
 
 @media (max-width: 1300px) {
@@ -653,6 +689,21 @@
 @media (max-width: 993px) {
 
     #home {
+
+        .home_wrapper {
+            flex-direction: column;
+
+            .home_slider {
+                width: 100%;
+            }
+
+            .home_img  {
+                max-width: 100%;
+                img {
+                    object-fit: contain;
+                }
+            }
+        }
 
         .partners_slider {
             .partners_title {
@@ -1474,6 +1525,29 @@
         }
     }
 
+    #home {
+        .home_slider {
+            gap: 30px;
+            .home_slider_head {
+                flex-direction: column-reverse;
+
+                span {
+                    margin-right: auto;
+                }
+
+                .pagination {
+                    margin-left: auto;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .home_btns {
+                gap: 10px;
+                flex-direction: column;
+            }
+        }
+    }
+
     footer {
         .footer_top {
             .footer_block {
@@ -1770,6 +1844,48 @@
             .application_right {
                 h1 {
                     width: 100%;
+                }
+            }
+        }
+
+        .home_slider {
+            padding: 30px 20px;
+            gap: 25px;
+
+            .home_slider_head {
+                span {
+                    font-size: 14px;
+                }
+            }
+
+            h1 {
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+
+            .pagination {
+                .circle {
+                    width: 10px;
+                    height: 10px;
+                }
+
+                .circle.active {
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+
+            .home_btns {
+                gap: 10px;
+                flex-direction: column;
+
+                button {
+                    font-size: 17px;
                 }
             }
         }

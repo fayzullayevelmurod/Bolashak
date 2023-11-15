@@ -454,9 +454,10 @@ header {
     margin-top: 20px;
     .home_wrapper {
         display: flex;
-        // align-items: stretch;
+        align-items: stretch;
         justify-content: space-between;
         gap: 24px;
+        
     }
 
     .home_slider {
@@ -567,6 +568,9 @@ header {
         max-width: 781px;
         
         img {
+            border-radius: 30px;
+            height: 100%;
+            object-fit: cover;
             width: 100%;
         }
     }

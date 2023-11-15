@@ -405,6 +405,7 @@ header .menu_in .menu_block a {
 }
 #home .home_wrapper {
   display: flex;
+  align-items: stretch;
   justify-content: space-between;
   gap: 24px;
 }
@@ -503,6 +504,10 @@ header .menu_in .menu_block a {
   max-width: 781px;
 }
 #home .home_img img {
+  border-radius: 30px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 #home .mission {
@@ -2233,6 +2238,30 @@ footer .footer_bottom p {
   #legislation .legislation_text h4 {
     font-size: 25px;
   }
+  #home .home_slider {
+    padding: 50px;
+  }
+  #home .home_slider span {
+    font-size: 16px;
+  }
+  #home .home_slider h1 {
+    font-size: 40px;
+  }
+  #home .home_slider p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  #home .home_slider .pagination {
+    gap: 10px;
+  }
+  #home .home_slider .home_btns button {
+    height: 55px;
+    width: 230px;
+    font-size: 20px;
+  }
+  #home .home_slider .home_slider_effekt {
+    width: 30%;
+  }
 }
 @media (max-width: 1300px) {
   header .menu {
@@ -2498,6 +2527,19 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 993px) {
+  #home .home_wrapper {
+    flex-direction: column;
+  }
+  #home .home_wrapper .home_slider {
+    width: 100%;
+  }
+  #home .home_wrapper .home_img {
+    max-width: 100%;
+  }
+  #home .home_wrapper .home_img img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
   #home .partners_slider .partners_title {
     margin-bottom: 30px;
   }
@@ -3067,6 +3109,23 @@ footer .footer_bottom p {
     width: 50px;
     height: 50px;
   }
+  #home .home_slider {
+    gap: 30px;
+  }
+  #home .home_slider .home_slider_head {
+    flex-direction: column-reverse;
+  }
+  #home .home_slider .home_slider_head span {
+    margin-right: auto;
+  }
+  #home .home_slider .home_slider_head .pagination {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  #home .home_slider .home_btns {
+    gap: 10px;
+    flex-direction: column;
+  }
   footer .footer_top .footer_block {
     width: 100%;
   }
@@ -3267,6 +3326,36 @@ footer .footer_bottom p {
   }
   #home .application .application_right h1 {
     width: 100%;
+  }
+  #home .home_slider {
+    padding: 30px 20px;
+    gap: 25px;
+  }
+  #home .home_slider .home_slider_head span {
+    font-size: 14px;
+  }
+  #home .home_slider h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  #home .home_slider p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  #home .home_slider .pagination .circle {
+    width: 10px;
+    height: 10px;
+  }
+  #home .home_slider .pagination .circle.active {
+    width: 12px;
+    height: 12px;
+  }
+  #home .home_slider .home_btns {
+    gap: 10px;
+    flex-direction: column;
+  }
+  #home .home_slider .home_btns button {
+    font-size: 17px;
   }
   footer .footer_top_block {
     border-radius: 0 0 35px 35px;
