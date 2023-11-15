@@ -1132,6 +1132,33 @@ header {
             gap: 24px;
         }
 
+        .application_in {
+            margin-bottom: 50px;
+            flex-direction: row-reverse;
+            align-items: stretch;
+
+            .application_left {
+                max-width: 1174px;
+
+                img {
+                    max-width: 1174px;
+                    height: 100%;
+                    border-radius: 30px;
+                    object-fit: cover;
+                }
+            }
+
+            .application_right {
+                position: relative;
+                .application_effekt {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+
+        }
+
         .application_left {
             max-width: 1075px;
 
@@ -2430,6 +2457,280 @@ header {
     }
 }
 // price
+
+// questionnaire
+#questionnaire {
+    .questionnaire_home {
+        margin-bottom: 80px;
+        h4 {
+            color: #383838;
+            font-family: $Manrope;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 145%;
+            margin-bottom: 16px;
+        }
+
+        h6 {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            color: #383838;
+            font-family: $Manrope;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 145%;
+            margin-bottom: 6px;
+        }
+    }
+
+    .analyzes {
+        overflow-x: hidden;
+        position: relative;
+        padding-bottom: 141px;
+
+        .analizy_effekt {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+        .wrapper_container {
+            padding: 70px;
+            border-radius: 40px;
+            background: #6E86C0;
+
+            h2 {
+                color: #FFF;
+                font-family: $Manrope;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 145%;
+                margin-bottom: 40px;
+            }
+
+            .analyzes_in {
+                display: flex;
+                align-items: start;
+                justify-content: space-between;
+                gap: 15px;
+
+                .analyzes_right,
+                .analyzes_left {
+                    max-width: 637px;
+                }
+                h5 {
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: start;
+                    gap: 16px;
+                    .circle {
+                        width: 40px;
+                    }
+                    span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: #fff;
+                        color: #FF62B4;
+                        font-family: $Manrope;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: 145%; 
+                    }
+                    
+                    color: #FFF;
+                    font-family: $Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 145%; 
+                }
+            }
+        }
+    }
+
+    .documents {
+        margin-bottom: 95px;
+        .main_container {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            gap: 20px;
+
+            .documents_left {
+                h2 {
+                    color: #383838;
+                    font-family: $Manrope;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 145%;
+                    margin-bottom: 16px;
+                }
+
+                h6 {
+                    max-width: 1063px;
+                    display: flex;
+                    align-items: start;
+                    gap: 16px;
+                    color: #383838;
+                    font-family: $Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 145%; 
+                    margin-bottom: 6px;
+
+                    
+                }
+            }
+
+            .documents_right {
+                padding: 30px;
+                border-radius: 30px;
+                background: #F2F5FE;
+                p {
+                    width: 527px;
+                    color: #6E86C0;
+                    font-family: $Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 145%; 
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+
+    .documents_bottom {
+        img {
+            width: 100%;
+        }
+    }
+
+    .candidate {
+        margin-top: 100px;
+        h2 {
+            color: #383838;
+            font-family: $Manrope;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 145%;
+            margin-bottom: 40px;
+        }
+
+        .candidate_in {
+            display: flex;
+            align-items: stretch;
+            // gap: 24px;
+
+            .candidate_left {
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 24px;
+
+                .candidate_card {
+                    padding: 30px;
+                    border-radius: 30px;
+                    background: #F2F5FE;
+                    width: calc(100% / 2 - 24px);
+                    
+                    h3 {
+                        color: #6E86C0;
+                        font-family: $Manrope;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 140%;
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        color: #6E86C0;
+                        font-family: $Manrope;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 145%;
+                    }
+                }
+            }
+
+            .candidate_right {
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 24px;
+
+                .candidate_card_one {
+                    padding: 30px;
+                    border-radius: 30px;
+                    background: #F2F5FE;
+                    width: 100%;
+                    
+                    h3 {
+                        color: #6E86C0;
+                        font-family: $Manrope;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 140%;
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        color: #6E86C0;
+                        font-family: $Manrope;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 145%;
+                    }
+                }
+
+                .candidate_card {
+                    padding: 30px;
+                    border-radius: 30px;
+                    background: #F2F5FE;
+                    width: calc(100% / 2 - 24px);
+                    
+                    h3 {
+                        color: #6E86C0;
+                        font-family: $Manrope;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 140%;
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        color: #6E86C0;
+                        font-family: $Manrope;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 145%;
+                    }
+                }
+            }
+        }
+    }
+}
+// questionnaire
 
 
 

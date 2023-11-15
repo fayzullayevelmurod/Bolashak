@@ -875,6 +875,29 @@ header .menu_in .menu_block a {
   justify-content: space-between;
   gap: 24px;
 }
+#home .application .application_in {
+  margin-bottom: 50px;
+  flex-direction: row-reverse;
+  align-items: stretch;
+}
+#home .application .application_in .application_left {
+  max-width: 1174px;
+}
+#home .application .application_in .application_left img {
+  max-width: 1174px;
+  height: 100%;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#home .application .application_in .application_right {
+  position: relative;
+}
+#home .application .application_in .application_right .application_effekt {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 #home .application .application_left {
   max-width: 1075px;
 }
@@ -1966,6 +1989,243 @@ header .menu_in .menu_block a {
   width: 100%;
 }
 
+#questionnaire .questionnaire_home {
+  margin-bottom: 80px;
+}
+#questionnaire .questionnaire_home h4 {
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 145%;
+  margin-bottom: 16px;
+}
+#questionnaire .questionnaire_home h6 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  margin-bottom: 6px;
+}
+#questionnaire .analyzes {
+  overflow-x: hidden;
+  position: relative;
+  padding-bottom: 141px;
+}
+#questionnaire .analyzes .analizy_effekt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#questionnaire .analyzes .wrapper_container {
+  padding: 70px;
+  border-radius: 40px;
+  background: #6E86C0;
+}
+#questionnaire .analyzes .wrapper_container h2 {
+  color: #FFF;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 145%;
+  margin-bottom: 40px;
+}
+#questionnaire .analyzes .wrapper_container .analyzes_in {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 15px;
+}
+#questionnaire .analyzes .wrapper_container .analyzes_in .analyzes_right,
+#questionnaire .analyzes .wrapper_container .analyzes_in .analyzes_left {
+  max-width: 637px;
+}
+#questionnaire .analyzes .wrapper_container .analyzes_in h5 {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  color: #FFF;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+}
+#questionnaire .analyzes .wrapper_container .analyzes_in h5 .circle {
+  width: 40px;
+}
+#questionnaire .analyzes .wrapper_container .analyzes_in h5 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #FF62B4;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 145%;
+}
+#questionnaire .documents {
+  margin-bottom: 95px;
+}
+#questionnaire .documents .main_container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+#questionnaire .documents .main_container .documents_left h2 {
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 145%;
+  margin-bottom: 16px;
+}
+#questionnaire .documents .main_container .documents_left h6 {
+  max-width: 1063px;
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  margin-bottom: 6px;
+}
+#questionnaire .documents .main_container .documents_right {
+  padding: 30px;
+  border-radius: 30px;
+  background: #F2F5FE;
+}
+#questionnaire .documents .main_container .documents_right p {
+  width: 527px;
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  margin-bottom: 12px;
+}
+#questionnaire .documents_bottom img {
+  width: 100%;
+}
+#questionnaire .candidate {
+  margin-top: 100px;
+}
+#questionnaire .candidate h2 {
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 145%;
+  margin-bottom: 40px;
+}
+#questionnaire .candidate .candidate_in {
+  display: flex;
+  align-items: stretch;
+}
+#questionnaire .candidate .candidate_in .candidate_left {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+#questionnaire .candidate .candidate_in .candidate_left .candidate_card {
+  padding: 30px;
+  border-radius: 30px;
+  background: #F2F5FE;
+  width: calc(50% - 24px);
+}
+#questionnaire .candidate .candidate_in .candidate_left .candidate_card h3 {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 8px;
+}
+#questionnaire .candidate .candidate_in .candidate_left .candidate_card p {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+}
+#questionnaire .candidate .candidate_in .candidate_right {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+#questionnaire .candidate .candidate_in .candidate_right .candidate_card_one {
+  padding: 30px;
+  border-radius: 30px;
+  background: #F2F5FE;
+  width: 100%;
+}
+#questionnaire .candidate .candidate_in .candidate_right .candidate_card_one h3 {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 8px;
+}
+#questionnaire .candidate .candidate_in .candidate_right .candidate_card_one p {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+}
+#questionnaire .candidate .candidate_in .candidate_right .candidate_card {
+  padding: 30px;
+  border-radius: 30px;
+  background: #F2F5FE;
+  width: calc(50% - 24px);
+}
+#questionnaire .candidate .candidate_in .candidate_right .candidate_card h3 {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 8px;
+}
+#questionnaire .candidate .candidate_in .candidate_right .candidate_card p {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+}
+
 footer {
   overflow: hidden;
   background: #6E86C0;
@@ -2275,6 +2535,9 @@ footer .footer_bottom p {
   }
   header .menu_in .main_container {
     gap: 30px;
+  }
+  #home .application .application_in .application_right .application_effekt {
+    width: 35%;
   }
   #home .application .application_left {
     flex: 2;

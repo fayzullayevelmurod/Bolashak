@@ -43,7 +43,7 @@ var swiper = new Swiper(".newsSlider", {
 
 var swiper = new Swiper(".homeSlider", {
   pagination: {
-    el: ".swiper-pagination",
+    el: ".pagination",
   },
 });
 

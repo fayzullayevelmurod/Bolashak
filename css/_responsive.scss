@@ -316,7 +316,12 @@
 
     #home {
         .application {
-            .wrapper_container {
+            .application_in {
+                .application_right {
+                    .application_effekt {
+                        width: 35%;
+                    }
+                }
             }
 
             .application_left {
