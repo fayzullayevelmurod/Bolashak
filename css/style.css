@@ -12,9 +12,18 @@
   text-decoration: none;
 }
 
+body::-webkit-scrollbar {
+  background: #f1f1f1;
+  width: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+
 body.hidden {
   overflow: hidden !important;
-  margin-right: 21px;
+  padding-right: 19px;
 }
 
 .main_container {
@@ -112,11 +121,16 @@ body.hidden {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.modal_wrapper.active {
+  display: block;
+}
+
 .main_modal {
+  display: none;
   position: fixed;
   left: 50%;
   top: 50%;
-  z-index: 20;
+  z-index: 25;
   padding: 40px 46px;
   border-radius: 40px;
   background: #FFF;
@@ -195,6 +209,10 @@ body.hidden {
   background-color: #FF62B4 !important;
 }
 
+.main_modal.active {
+  display: block;
+}
+
 .link_path {
   margin-top: 49px;
   display: flex;
@@ -228,6 +246,9 @@ header .header_left {
 header .header_right {
   display: flex;
   gap: 30px;
+}
+header .header_right .button_three {
+  white-space: nowrap;
 }
 header .logo {
   display: flex;
@@ -393,6 +414,21 @@ header .menu_in {
   left: 0;
   width: 100%;
   padding: 38px 0 76px 0;
+}
+header .menu_in .menu_messanger {
+  display: block;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .menu_in .menu_messanger .messenger {
+  display: none;
+}
+header .menu_in .menu_messanger .number {
+  display: none;
+}
+header .menu_in .menu_messanger .modal_btn {
+  display: none;
 }
 header .menu_in .bg_img {
   position: absolute;
@@ -588,8 +624,6 @@ header .menu_in .menu_block .menu_block_height {
 #home .mission .mission_left h1 {
   max-width: 930px;
   color: #6E86C0;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
   font-style: normal;
@@ -682,8 +716,6 @@ header .menu_in .menu_block .menu_block_height {
 }
 #home .opportunity .opportunity_text h1 {
   color: #FF62B4;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
   font-style: normal;
@@ -735,7 +767,7 @@ header .menu_in .menu_block .menu_block_height {
 }
 #home .news_slider .wrapper_container {
   border-radius: 40px;
-  background: #F2F5FE;
+  background: rgba(255, 98, 180, 0.07);
 }
 #home .news_slider .main_container {
   display: block;
@@ -763,9 +795,7 @@ header .menu_in .menu_block .menu_block_height {
   margin-top: 24px;
   display: flex;
   flex-direction: column;
-  color: #6E86C0;
-  leading-trim: both;
-  text-edge: cap;
+  color: #FF62B4;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
   font-style: normal;
@@ -822,7 +852,7 @@ header .menu_in .menu_block .menu_block_height {
   align-items: center;
   gap: 10px;
   margin-top: 14px;
-  color: #6E86C0;
+  color: #FF62B4;
   font-family: "Manrope", sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -874,8 +904,6 @@ header .menu_in .menu_block .menu_block_height {
 #home .partners_slider .partners_title h1 {
   margin-top: 24px;
   color: #6E86C0;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
   font-style: normal;
@@ -886,12 +914,16 @@ header .menu_in .menu_block .menu_block_height {
   position: absolute;
   top: 0;
   right: 0;
+  gap: 16px;
 }
 #home .partners_slider .partners_btn .partners_btn_left {
   transform: rotate(180deg);
 }
 #home .partners_slider .partners_btn .partners_btn_right {
   transform: translateY(3px);
+}
+#home .partners_slider .partners_btn .swiper-button-disabled {
+  opacity: 0.7;
 }
 #home .partners_slider .partenrsSlider {
   margin-bottom: 150px;
@@ -981,8 +1013,6 @@ header .menu_in .menu_block .menu_block_height {
   margin-top: 24px;
   margin-bottom: 50px;
   color: #FFF;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
   font-style: normal;
@@ -1046,8 +1076,6 @@ header .menu_in .menu_block .menu_block_height {
   max-width: 858px;
   margin-top: 24px;
   color: #6E86C0;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
   font-style: normal;
@@ -1535,6 +1563,10 @@ header .menu_in .menu_block .menu_block_height {
   color: #fff;
   background-color: #FF62B4;
 }
+#massmedia .massmedia_pagination button.active {
+  color: #fff;
+  background-color: #FF62B4;
+}
 
 #questions .accardion_wrapper {
   position: relative;
@@ -1594,7 +1626,15 @@ header .menu_in .menu_block .menu_block_height {
 #questions .application .application_left {
   width: 1075px;
 }
+#questions .application .application_left img {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 #questions .application .application_right {
+  max-width: 781px;
   height: 100%;
   padding: 70px 30px 76px 70px;
   border-radius: 40px;
@@ -1615,8 +1655,6 @@ header .menu_in .menu_block .menu_block_height {
   margin-top: 24px;
   margin-bottom: 50px;
   color: #FFF;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
   font-style: normal;
@@ -1763,8 +1801,6 @@ header .menu_in .menu_block .menu_block_height {
 #legislation .legislation_right h3 {
   width: 400px;
   color: #FFF;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Soyuz Grotesk";
   font-size: 44px;
   font-style: normal;
@@ -1821,8 +1857,6 @@ header .menu_in .menu_block .menu_block_height {
   display: flex;
   flex-direction: column;
   color: #6E86C0;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
   font-style: normal;
@@ -1903,6 +1937,7 @@ header .menu_in .menu_block .menu_block_height {
 #legislation .news_slider .news_slider_btns button {
   width: 70px;
 }
+
 #price .price_title {
   position: relative;
 }
@@ -2061,7 +2096,11 @@ header .menu_in .menu_block .menu_block_height {
   width: 781px;
 }
 #price .contact_block .contact_block_right img {
+  border-radius: 30px;
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #questionnaire .questionnaire_home {
@@ -2258,8 +2297,6 @@ header .menu_in .menu_block .menu_block_height {
   margin-top: 24px;
   margin-bottom: 50px;
   color: #FFF;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
   font-style: normal;
@@ -2279,6 +2316,53 @@ header .menu_in .menu_block .menu_block_height {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+#questionnaire .candidate h2 {
+  margin-bottom: 40px;
+  max-width: 1152px;
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 145%;
+}
+#questionnaire .candidate .candidate_in {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+#questionnaire .candidate .candidate_in .candidate_card {
+  width: calc(25% - 18px);
+}
+#questionnaire .candidate .candidate_in .candidate_card_one {
+  width: calc(50% - 12px);
+}
+#questionnaire .candidate .candidate_in .candidate_card,
+#questionnaire .candidate .candidate_in .candidate_card_one {
+  padding: 30px;
+  border-radius: 30px;
+  background: #F2F5FE;
+}
+#questionnaire .candidate .candidate_in .candidate_card h3,
+#questionnaire .candidate .candidate_in .candidate_card_one h3 {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 8px;
+}
+#questionnaire .candidate .candidate_in .candidate_card p,
+#questionnaire .candidate .candidate_in .candidate_card_one p {
+  color: #6E86C0;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
 }
 #questionnaire .questionnaire_text {
   margin: 100px 0;
@@ -2722,6 +2806,9 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 1300px) {
+  body.hidden {
+    padding-right: 0;
+  }
   header .menu {
     margin-left: 10px;
   }
@@ -3026,6 +3113,18 @@ footer .footer_bottom p {
   header .header_right .button_three {
     display: none;
   }
+  header .menu_bg .menu_in .menu_messanger {
+    display: flex;
+  }
+  header .menu_bg .menu_in .menu_messanger .messenger {
+    display: none;
+  }
+  header .menu_bg .menu_in .menu_messanger .number {
+    display: flex;
+  }
+  header .menu_bg .menu_in .menu_messanger .modal_btn {
+    display: block;
+  }
   #about .main_container {
     flex-direction: column-reverse;
   }
@@ -3102,9 +3201,6 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 993px) {
-  body.hidden {
-    margin-right: 0;
-  }
   #home .home_wrapper {
     flex-direction: column;
   }
@@ -3175,6 +3271,9 @@ footer .footer_bottom p {
   }
   #questions .application .wrapper_container {
     flex-direction: column-reverse;
+  }
+  #questions .application .application_right {
+    max-width: 100%;
   }
   #questions .application .application_right h1 {
     font-size: 44px;
@@ -3667,8 +3766,9 @@ footer .footer_bottom p {
 }
 @media (max-width: 600px) {
   .modal_wrapper .main_modal {
+    border-radius: 20px;
     width: calc(100% - 20px);
-    padding: 25px 30px;
+    padding: 20px;
   }
   .modal_wrapper .main_modal .modal_img {
     z-index: -1;
@@ -3676,24 +3776,28 @@ footer .footer_bottom p {
   }
   .modal_wrapper .main_modal h3 {
     margin: 0 auto 10px auto;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
   }
   .modal_wrapper .main_modal input {
-    padding: 20px;
-    height: 65px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 55px;
+    font-size: 18px;
   }
   .modal_wrapper .main_modal textarea {
+    border-radius: 10px;
+    font-size: 18px;
     padding: 20px;
-    height: 130px;
+    height: 120px;
   }
   .modal_wrapper .main_modal p {
-    font-size: 16px;
+    font-size: 15px;
   }
   .modal_wrapper .main_modal .button_three {
     margin-top: 25px;
-    height: 65px;
-    font-size: 23px;
+    height: 55px;
+    font-size: 20px;
   }
   #employees .employees_card {
     width: 100%;
@@ -3745,6 +3849,7 @@ footer .footer_bottom p {
     transform: translateY(17px);
   }
   #licenses .wrapper_container {
+    border-radius: 20px;
     padding: 30px 20px;
   }
   #contact .wrapper_container iframe {
@@ -3939,6 +4044,29 @@ footer .footer_bottom p {
   }
   header .menu_bg {
     top: 75px;
+  }
+  header .menu_bg .menu_in .menu_messanger {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  header .menu_bg .menu_in .menu_messanger .messenger {
+    display: flex;
+  }
+  header .menu_bg .menu_in .menu_messanger .number {
+    display: flex;
+  }
+  header .menu_bg .menu_in .menu_messanger .number a {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  header .menu_bg .menu_in .menu_messanger .number span {
+    font-size: 14px;
+  }
+  header .menu_bg .menu_in .menu_messanger .modal_btn {
+    font-size: 15px;
+    padding: 0 30px;
+    height: 40px;
+    display: block;
   }
   header .menu_in {
     padding: 15px 0;
@@ -4154,7 +4282,7 @@ footer .footer_bottom p {
     padding: 10px 0;
   }
   header .menu_bg {
-    top: 68px;
+    top: 80px;
   }
   header .menu {
     width: 90px;

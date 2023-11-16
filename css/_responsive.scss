@@ -354,6 +354,9 @@
 }
 
 @media (max-width: 1300px) {
+    body.hidden {
+        padding-right: 0;
+    }
     header {
 
         .menu {
@@ -802,6 +805,27 @@
                 display: none;
             }
         }
+
+        .menu_bg {
+            .menu_in {
+                .menu_messanger {
+                    display: flex;
+
+                    .messenger {
+                        display: none;
+                    }
+
+                    .number {
+                        display: flex;
+                    }
+
+                    .modal_btn {
+                        display: block;
+                    }
+                }
+
+            }
+        }
     }
 
     #about {
@@ -914,10 +938,6 @@
 
 @media (max-width: 993px) {
 
-    body.hidden {
-        margin-right: 0;
-    }
-
     #home {
 
         .home_wrapper {
@@ -1026,6 +1046,7 @@
             }
 
             .application_right {
+                max-width: 100%;
                 h1 {
                     font-size: 44px;
                     margin-bottom: 44px;
@@ -1735,8 +1756,9 @@
 @media (max-width: 600px) {
     .modal_wrapper {
         .main_modal {
+            border-radius: 20px;
             width: calc(100% - 20px);
-            padding: 25px 30px;
+            padding: 20px;
 
             .modal_img {
                 z-index: -1;
@@ -1745,28 +1767,32 @@
 
             h3 {
                 margin: 0 auto 10px auto;
-                font-size: 30px;
+                font-size: 22px;
                 text-align: center;
             }
 
             input {
-                padding: 20px;
-                height: 65px;
+                border-radius: 10px;
+                padding: 10px 20px;
+                height: 55px;
+                font-size: 18px;
             }
 
             textarea {
+                border-radius: 10px;
+                font-size: 18px;
                 padding: 20px;
-                height: 130px;
+                height: 120px;
             }
 
             p {
-                font-size: 16px;
+                font-size: 15px;
             }
 
             .button_three {
                 margin-top: 25px;
-                height: 65px;
-                font-size: 23px;
+                height: 55px;
+                font-size: 20px;
             }
         }
     }
@@ -1843,6 +1869,7 @@
         }
         
         .wrapper_container {
+            border-radius: 20px;
             padding: 30px 20px;
         }
     }
@@ -2122,6 +2149,39 @@
 
         .menu_bg {
             top: 75px;
+
+            .menu_in {
+                .menu_messanger {
+                    margin: 0 auto;
+                    flex-direction: column;
+
+                    .messenger {
+                        display: flex;
+                    }
+
+                    .number {
+                        display: flex;
+
+                        a {
+                            font-size: 18px;
+                            margin-bottom: 0;
+                        }
+
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+
+                    .modal_btn {
+                        font-size: 15px;
+                        padding: 0 30px;
+                        height: 40px;
+                        display: block;
+                    }
+                }
+
+            }
+            
         }
         .menu_in {
             padding: 15px 0;
@@ -2147,6 +2207,8 @@
                 }
             }
         }
+
+
 
 
         .header_left {
@@ -2448,7 +2510,7 @@
         padding: 10px 0;
 
         .menu_bg {
-            top: 68px;
+            top: 80px;
         }
 
         .menu {
