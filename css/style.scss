@@ -1217,6 +1217,25 @@ header {
         }
     }
 
+    .wrapper_container {
+        align-items: stretch;
+    }
+
+    .application_left {
+        flex: 2;
+
+        img {
+            border-radius: 40px;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .application_right {
+        flex: 1;
+    }
+
     .questions {
         padding-top: 120px;
         position: relative;
@@ -2467,6 +2486,7 @@ header {
     .questionnaire_home {
         margin-bottom: 80px;
         h4 {
+            max-width: 1152px;
             color: #383838;
             font-family: $Manrope;
             font-size: 32px;
@@ -2623,79 +2643,6 @@ header {
         }
     }
 
-    .candidate {
-        margin-top: 100px;
-        h2 {
-            color: #383838;
-            font-family: $Manrope;
-            font-size: 32px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 145%;
-            margin-bottom: 40px;
-        }
-
-        .candidate_in {
-            display: flex;
-            align-items: stretch;
-            gap: 24px;
-            flex-wrap: wrap;
-
-            .candidate_card {
-                padding: 30px;
-                border-radius: 30px;
-                background: #F2F5FE;
-                width: calc(100% / 4 - 18px);
-                
-                h3 {
-                    color: #6E86C0;
-                    font-family: $Manrope;
-                    font-size: 26px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 140%;
-                    margin-bottom: 8px;
-                }
-
-                p {
-                    color: #6E86C0;
-                    font-family: $Manrope;
-                    font-size: 22px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: 145%;
-                }
-            }
-            .candidate_card_one {
-                padding: 30px;
-                border-radius: 30px;
-                background: #F2F5FE;
-                width: calc(50% - 12px);
-                
-                h3 {
-                    color: #6E86C0;
-                    font-family: $Manrope;
-                    font-size: 26px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 140%;
-                    margin-bottom: 8px;
-                }
-
-                p {
-                    color: #6E86C0;
-                    font-family: $Manrope;
-                    font-size: 22px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: 145%;
-                }
-            }
-      
-
-        }
-    }
-
     .application {
         margin: 120px 0;
         .wrapper_container {
@@ -2784,6 +2731,122 @@ header {
                 display: flex;
                 align-items: center;
                 gap: 10px;
+            }
+        }
+    }
+
+    .questionnaire_text {
+        margin: 100px 0;
+        .main_container {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            gap: 70px;
+
+            .questionnaire_text_left {
+                max-width: 1152px;
+                p {
+                    margin-bottom: 12px;
+                    color: #383838;
+                    font-family: $Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 145%;
+                }
+
+                .text_left {
+                    max-width: 1152px;
+                    margin-top: 48px;
+                    h2 {
+                        color: #383838;
+                        font-family: $Manrope;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 145%;
+                        margin-bottom: 10px;
+                    }
+
+                    h6 {
+                        // display: flex;
+                        padding-left: 26px;
+                        position: relative;
+                        margin-top: 6px;
+                        color: #383838;
+                        font-family: $Manrope;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 145%;
+
+                        &::before {
+                            content: '';
+                            width: 10px;
+                            height: 10px;
+                            position: absolute;
+                            left: 0;
+                            transform: translateY(-50%);
+                            top: 50%;
+                            background-color: #6E86C0;
+                            border-radius: 50%;
+                        }
+
+                        .circle {
+                            margin: 16px;
+                        }
+
+                        b {
+
+                            color: #6E86C0;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .text_bottom {
+                        margin-top: 14px;
+                        margin-bottom: 30px;
+                    }
+
+                }
+
+                span {
+                    border-radius: 30px;
+                    background: #F2F5FE;
+                    padding: 30px;
+                    color: #6E86C0;
+                    font-family: $Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 145%; 
+                }
+            }
+
+            .questionnaire_text_right {
+                display: block;
+                border-radius: 30px;
+                background: #F2F5FE;
+                padding: 30px;
+
+                h4 {
+                    color: #6E86C0;
+                    font-family: $Manrope;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 145%;
+                    margin-bottom: 12px;
+                }
+
+                p {
+                    color: #6E86C0;
+                    font-family: $Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 145%;
+                }
             }
         }
     }

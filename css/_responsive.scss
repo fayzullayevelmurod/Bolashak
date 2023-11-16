@@ -782,6 +782,12 @@
                 }
             }
         } 
+
+        .questionnaire_text {
+            .main_container {
+                gap: 25px;
+            }
+        }
     }
 }
 
@@ -1107,7 +1113,49 @@
         .application {
             margin: 50px 0;
         }
+
+        .questionnaire_text {
+            margin: 30px 0;
+            .main_container {
+                flex-direction: column;
+                
+                .questionnaire_text_left  {
+                    p{
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                    }
+
+                    .text_left  {
+                        margin-top: 20px;
+                        h2 {
+                            font-size: 27px;
+                        }
+
+                        h6 {
+                            font-size: 16px;
+                        }
+
+                    }
+                    span {
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                }
+
+                .questionnaire_text_right  {
+                    border-radius: 20px;
+                    h4 {
+                        font-size: 27px;
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
     }
+
 
     footer {
         .footer_top {
@@ -1829,6 +1877,19 @@
             .home_btns {
                 gap: 10px;
                 flex-direction: column;
+            }
+        }
+        .application {
+            .application_in {
+                .partenrsBlock {
+                    border-radius: 20px;
+                    padding: 30px 25px;
+                }
+
+                h1 {
+                    margin-bottom: 15px;
+                    margin-top: 0;
+                }
             }
         }
     }
