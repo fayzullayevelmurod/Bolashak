@@ -131,6 +131,10 @@
                 }
             }
         }
+        
+        .home_slider {
+            width: 795px;
+        }
     }
 }
 
@@ -169,9 +173,7 @@
                 }
             }
         }
-    }
-
-    
+    } 
 }
 
 @media (max-width: 1600px) {
@@ -317,9 +319,7 @@
 
     #home {
         .home_slider {
-
-            padding: 50px;
-
+            width: 620px;
             span {
                 font-size: 16px;
             }
@@ -914,6 +914,10 @@
 
 @media (max-width: 993px) {
 
+    body.hidden {
+        margin-right: 0;
+    }
+
     #home {
 
         .home_wrapper {
@@ -927,6 +931,14 @@
                 max-width: 100%;
                 img {
                     object-fit: contain;
+                }
+            }
+        }
+        .home_slider {
+            .homeSlider {
+                .swiper-slide,
+                .swiper-slide-active {
+                    padding: 40px;
                 }
             }
         }
@@ -1253,6 +1265,10 @@
             height: 45px;
             width: 85px;
             font-size: 16px;
+
+            .language_down {
+                width: 85px;
+            }
         }
 
         .messenger {
@@ -1691,7 +1707,7 @@
     }
 }
 
-@media (max-width:650px) {
+@media (max-width: 650px) {
     #questionnaire {
         .documents {
             .main_container {
@@ -1702,6 +1718,15 @@
                         width: 100%;
                     }
                 }
+            }
+        }
+    }
+
+    #home {
+        .home_slider {
+            .home_slider_pagination {
+                top: 20px;
+                right: 25px !important;
             }
         }
     }
@@ -2093,14 +2118,20 @@
 
 @media (max-width: 566px) {
     header {
+        padding: 10px 0;
+
+        .menu_bg {
+            top: 75px;
+        }
         .menu_in {
-            padding: 0;
+            padding: 15px 0;
 
             .main_container {
                 gap: 5px;
             }
 
             .menu_block {
+                width: 100%;
                 h3 {
                     margin-top: 13px;
                     font-size: 17px;
@@ -2109,6 +2140,10 @@
                 a {
                     margin-top: 7px;
                     font-size: 14px;
+                }
+
+                .menu_block_height {
+                    display: none;
                 }
             }
         }
@@ -2195,12 +2230,21 @@
         }
 
         .home_slider {
-            padding: 30px 20px;
             gap: 25px;
+
+            .homeSlider {
+                .swiper-slide, .swiper-slide-active {
+                    padding: 45px 20px 20px 20px;
+                }
+
+            }
+
 
             .home_slider_head {
                 span {
-                    font-size: 14px;
+                    padding: 7px 11px;
+                    font-size: 11px;
+                    margin-bottom: 5px;
                 }
             }
 
@@ -2214,15 +2258,16 @@
                 margin-bottom: 15px;
             }
 
-            .pagination {
-                .circle {
-                    width: 10px;
+            .home_slider_pagination {
+                gap: 10px;
+                .swiper-pagination-bullet {
+                    min-width: 10px;
                     height: 10px;
                 }
 
-                .circle.active {
-                    width: 12px;
-                    height: 12px;
+                .swiper-pagination-bullet-active {
+                    width: 11px;
+                    height: 11px;
                 }
             }
 
@@ -2231,6 +2276,8 @@
                 flex-direction: column;
 
                 button {
+                    height: 45px;
+                    width: 200px;
                     font-size: 17px;
                 }
             }
@@ -2417,11 +2464,25 @@
             }
         }
 
+        .menu.active {
+            .clone_img {
+                transform: translateX(5px);
+            }
+
+            .menu_close {
+                font-size: 11px;
+            }
+        }
+
         .language {
             margin-left: 5px;
             width: 65px;
             height: 35px;
             font-size: 13px;
+
+            .language_down {
+                width: 65px;
+            }
 
             img {
                 width: 10px;
