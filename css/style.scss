@@ -1157,6 +1157,10 @@ header {
                 }
             }
 
+            .partenrsBlock {
+                padding: 50px 70px;
+            }
+
         }
 
         .application_left {
@@ -2634,98 +2638,152 @@ header {
         .candidate_in {
             display: flex;
             align-items: stretch;
-            // gap: 24px;
+            gap: 24px;
+            flex-wrap: wrap;
 
-            .candidate_left {
-                height: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                gap: 24px;
+            .candidate_card {
+                padding: 30px;
+                border-radius: 30px;
+                background: #F2F5FE;
+                width: calc(100% / 4 - 18px);
+                
+                h3 {
+                    color: #6E86C0;
+                    font-family: $Manrope;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 140%;
+                    margin-bottom: 8px;
+                }
 
-                .candidate_card {
-                    padding: 30px;
+                p {
+                    color: #6E86C0;
+                    font-family: $Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 145%;
+                }
+            }
+            .candidate_card_one {
+                padding: 30px;
+                border-radius: 30px;
+                background: #F2F5FE;
+                width: calc(50% - 12px);
+                
+                h3 {
+                    color: #6E86C0;
+                    font-family: $Manrope;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 140%;
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    color: #6E86C0;
+                    font-family: $Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 145%;
+                }
+            }
+      
+
+        }
+    }
+
+    .application {
+        margin: 120px 0;
+        .wrapper_container {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .application_in {
+            margin-bottom: 50px;
+            flex-direction: row;
+            align-items: stretch;
+
+            .application_left {
+                max-width: 1174px;
+
+                img {
+                    max-width: 1174px;
+                    height: 100%;
                     border-radius: 30px;
-                    background: #F2F5FE;
-                    width: calc(100% / 2 - 24px);
-                    
-                    h3 {
-                        color: #6E86C0;
-                        font-family: $Manrope;
-                        font-size: 26px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 140%;
-                        margin-bottom: 8px;
-                    }
-
-                    p {
-                        color: #6E86C0;
-                        font-family: $Manrope;
-                        font-size: 22px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 145%;
-                    }
+                    object-fit: cover;
                 }
             }
 
-            .candidate_right {
-                height: 100%;
+            .application_right {
+                span {
+                    color: #FF62B4;
+                }
+
+            }
+
+            .partenrsBlock {
+                padding: 50px 70px;
+            }
+
+        }
+
+        .application_left {
+            max-width: 1075px;
+
+        }
+
+        .application_right {
+            padding: 70px 30px 77px 70px;
+            border-radius: 40px;
+            background: #6E86C0;
+
+            span {
+                padding: 12px 26px;
+                color: #6E86C0;
+                font-family: $Manrope;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%;
+                border-radius: 99px;
+                background: #FFF;
+            }
+
+            h1 {
+                width: 570px;
+                margin-top: 24px;
+                margin-bottom: 50px;
+                color: #FFF;
+                leading-trim: both;
+                text-edge: cap;
+                font-family: $Soyuz;
+                font-size: 54px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110.5%;
+            }
+
+            p {
+                color: #FFF;
+                font-family: $Manrope;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 145%;
+                margin-bottom: 50px;
+            }
+
+            .application_btns {
                 display: flex;
-                flex-wrap: wrap;
-                gap: 24px;
-
-                .candidate_card_one {
-                    padding: 30px;
-                    border-radius: 30px;
-                    background: #F2F5FE;
-                    width: 100%;
-                    
-                    h3 {
-                        color: #6E86C0;
-                        font-family: $Manrope;
-                        font-size: 26px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 140%;
-                        margin-bottom: 8px;
-                    }
-
-                    p {
-                        color: #6E86C0;
-                        font-family: $Manrope;
-                        font-size: 22px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 145%;
-                    }
-                }
-
-                .candidate_card {
-                    padding: 30px;
-                    border-radius: 30px;
-                    background: #F2F5FE;
-                    width: calc(100% / 2 - 24px);
-                    
-                    h3 {
-                        color: #6E86C0;
-                        font-family: $Manrope;
-                        font-size: 26px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 140%;
-                        margin-bottom: 8px;
-                    }
-
-                    p {
-                        color: #6E86C0;
-                        font-family: $Manrope;
-                        font-size: 22px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 145%;
-                    }
-                }
+                align-items: center;
+                gap: 10px;
             }
         }
     }

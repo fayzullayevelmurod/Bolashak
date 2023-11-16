@@ -53,6 +53,29 @@
             }
         }
     }
+
+    #questionnaire {
+        .application {
+            .wrapper_container {
+                align-items: stretch;
+            }
+
+            .application_left {
+                flex: 2;
+
+                img {
+                    border-radius: 40px;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .application_right {
+                flex: 1;
+            }
+        }
+    }
 }
 
 @media (max-width: 1770px) {
@@ -129,6 +152,26 @@
             }
         }
     }
+
+    #questionnaire {
+        .application {
+            .application_right {
+                flex: 1;;
+            }
+
+            .application_left {
+                flex: 2;
+                img {
+                    border-radius: 40px;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    
 }
 
 @media (max-width: 1600px) {
@@ -193,6 +236,25 @@
 
                 .mission_right {
                     flex: 1;
+                }
+            }
+        }
+    }
+
+    #questionnaire {
+        .application {
+            .application_right {
+                span {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                    margin-bottom: 25px;
+                }
+
+                p {
+                    font-size: 18px;
                 }
             }
         }
@@ -506,6 +568,54 @@
             }
         }
     }
+
+    #questionnaire {
+        .application {
+            .application_in {
+                .application_right {
+                    .application_effekt {
+                        width: 35%;
+                    }
+                }
+            }
+
+            .application_left {
+                flex: 2;
+
+                img {
+                    border-radius: 40px;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .application_right {
+                padding: 30px;
+                flex: 1;
+
+                span {
+                    padding: 6px 12px;
+                    font-size: 16px;
+                }
+
+                h1 {
+                    width: 400px;
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    font-size: 16px;
+                    margin-bottom: 30px;
+                }
+
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 1255px) {
@@ -567,6 +677,111 @@
                 }
             }
         }
+    }
+
+    .main_title {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    #questionnaire {
+        .questionnaire_home {
+            margin-bottom: 30px;
+            h4 {
+                font-size: 27px;
+            }
+
+            h6 {
+                font-size: 16px;
+                gap: 10px;
+                svg {
+                    width: 7px;
+                    height: 7px;
+                }
+            }
+        }
+
+        .analyzes {
+            padding-bottom: 50px;
+            .analizy_effekt {
+                width: 100%;
+            }
+            
+            .wrapper_container {
+                padding: 40px;
+
+                h2 {
+                    font-size: 27px;
+                    margin-bottom: 20px;
+                }
+
+                .analyzes_in  {
+                    gap: 10px;
+
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 15px;
+
+                        span {
+                            font-size: 15px;
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                    }
+                }   
+
+            }
+        }
+
+        .documents {
+            .main_container {
+                .documents_left {
+                    h2 {
+                        font-size: 27px;
+                        margin-bottom: 20px;
+                    }
+
+                    h6 {
+                        gap: 10px;
+                        font-size: 16px;
+
+                        svg {
+                            width: 7px;
+                            height: 7px;
+                        }
+                    }
+                }
+
+                .documents_right {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        } 
+
+        .candidate {
+            h2 {
+                font-size: 27px;
+                margin-bottom: 20px;
+            }
+
+            .candidate_in {
+                gap: 15px;
+                .candidate_card_one,
+                .candidate_card {
+                    border-radius: 20px;
+                    padding: 20px;
+                    h3 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        } 
     }
 }
 
@@ -842,6 +1057,55 @@
             .contact_block_right  {
                 width: 100%;
             }
+        }
+    }
+
+    #questionnaire {
+        .application {
+            .wrapper_container {
+                flex-direction: column-reverse;
+            }
+        }
+
+        .analyzes {
+            .wrapper_container {
+                .analyzes_in {
+                    gap: 0px;
+                    flex-direction: column;
+
+                    .analyzes_left,
+                    .analyzes_right {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+
+        .documents {
+            margin-bottom: 50px;
+            .main_container {
+                gap: 20px;
+                flex-direction: column;
+
+                .documents_right {
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .candidate {
+            margin-top: 50px;
+            .candidate_in {
+                .candidate_card,
+                .candidate_card_one {
+                    width: calc(100% / 2 - 10px);
+                }
+                
+            }
+        }
+
+        .application {
+            margin: 50px 0;
         }
     }
 
@@ -1379,6 +1643,22 @@
     }
 }
 
+@media (max-width:650px) {
+    #questionnaire {
+        .documents {
+            .main_container {
+                .documents_right {
+                    width: 100%;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 600px) {
     .modal_wrapper {
         .main_modal {
@@ -1896,6 +2176,142 @@
         }
     }
 
+    .main_title {
+        font-size: 35px;
+    }
+
+    #questionnaire {
+        
+        .questionnaire_home {
+            h4 {
+                font-size: 20px;
+            }
+
+            h6 {
+                font-size: 14px;
+            }
+        }
+
+        .documents {
+            .main_container {
+                .documents_left {
+                    h2 {
+                        font-size: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    h6 {
+                        font-size: 14px;
+                    }
+                }
+
+                .documents_right {
+                    border-radius: 20px;
+                    padding: 20px;
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .analyzes {
+
+            .analizy_effekt {
+                bottom: 25px;
+            }
+            .wrapper_container {
+                border-radius: 25px;
+                padding: 20px;
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                .analyzes_in {
+                    h5 {
+
+                        gap: 5px;
+                        font-size: 14px;
+
+                        .circle {
+ 
+                            width: 25px;
+                            height: 25px;
+
+                            span {
+                                font-size: 12px;
+                                width: 25px;
+                                height: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .candidate {
+            h2 {
+                font-size: 20px;
+            }
+            .candidate_in {
+                gap: 10px;
+                .candidate_card,
+                .candidate_card_one {
+                    width: 100%;
+
+                    h3 {
+                        font-size: 16px;
+                        margin-bottom: 0;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .application {
+
+            .application_in {
+
+                .partenrsBlock {
+                    padding: 25px;
+        
+                    span {
+                        font-size: 14px;
+                    }
+    
+                    h1 {
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        font-size: 25px;
+                    }
+    
+                    p {
+                        font-size: 14px;
+                    }
+    
+                    img {
+                        width: 35px;
+                    }
+                
+                }
+                
+                .application_right {
+                    border-radius: 25px;
+                    h1 {
+                        width: 100%;
+                    }
+    
+                    
+
+                }
+            }
+        }
+    }
 
     footer {
         .footer_top_block {
