@@ -147,3 +147,9 @@ catch {
 }
 
 
+let lightboxOverlay = document.getElementById('#lightboxOverlay');
+
+
+lightboxOverlay.addEventListener('click', () => {
+  body.classList.toggle('hidden')
+})

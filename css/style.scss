@@ -45,19 +45,24 @@ $Soyuz: 'Soyuz Grotesk';
 
 .lightboxOverlay {
     width: 100% !important;
-    width: 100% !important;
 }
 
 .lightbox {
     top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
     
 }
 
 .lightbox {
+    margin: 0 auto;
     .lb-image {
-        width: 100% !important;
+        margin: 0 auto;
+        // width: 95% !important;
+        width: 500px !important;
         border: none;
-        height: 800px !important;
+        // height: 800px !important;
+        height: auto !important;
     }
 }
 
@@ -2286,6 +2291,13 @@ header {
 
             .contact_address {
                 margin-bottom: 34px;
+                color: #383838;
+                font-family: $Manrope;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.3px;
             }
 
             p {
@@ -2370,7 +2382,7 @@ header {
             margin-bottom: 12px;
         }
 
-        span {
+        blockquote {
             margin-top: 18px;
             padding: 30px;
             border-radius: 30px;

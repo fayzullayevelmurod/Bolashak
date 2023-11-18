@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./libs/lightbox/css/lightbox.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css"> -->
     <link rel="stylesheet" href="./css/normolize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Болашак</title>
@@ -282,7 +283,7 @@
 
     <section id="documentation">
         <h3 class="documentation_title">Благодарственные письма</h3>
-        <div class="main_container">
+        <div  class="main_container" >
             <div class="documentation_card">
                 <a href="./images/documentation_1.svg" class="documentation_img" data-lightbox="gallery">
                     <img src="./images/documentation_1.svg"  alt="">
@@ -292,7 +293,7 @@
                 <span>2009</span>
             </div>
             <div class="documentation_card">
-                <a href="./images/documentation_2.svg" class="documentation_img" data-lightbox="gallery" class="documentation_img">
+                <a href="./images/documentation_2.svg" class="documentation_img"   data-lightbox="gallery" class="documentation_img">
                     <img src="./images/documentation_2.svg" alt="">
                 </a>
                 <h4>Сертификат соответствия стандартам</h4>
@@ -395,7 +396,10 @@
 
     <script src="./libs/lightbox/js/lightbox-plus-jquery.min.js"></script>
     <script src="./libs/lightbox/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js" integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.min.js" integrity="sha512-BLW2Jrofiqm6m7JhkQDIh2olT0EBI58+hIL/AXWvo8gOXKmsNlU6myJyEkTy6rOAAZjn0032FRk8sl9RgXPYIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.umd.min.js" integrity="sha512-dc8xJSGs0ib9uo0fLT/v4wp2LG7+4OSzc+UpFiIKiv6QP/e4hZH/S8manUCTtO3tNVGzcje8uJjSdL+NH29blQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="./js/app.js"></script>
     <script>
         lightbox.option({
@@ -404,5 +408,13 @@
             'disableScrolling': true
         });
     </script>
+    <!-- <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery'), {
+            plugins: [lgZoom, lgThumbnail],
+            licenseKey: 'your_license_key',
+            speed: 500,
+            // ... other settings
+        });
+    </script> -->
 </body>
 </html>
