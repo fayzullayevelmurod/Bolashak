@@ -248,6 +248,10 @@
 
 @media (max-width: 1400px) {
     #employees {
+
+        .main_container {
+            gap: 28px;
+        }
         .employees_card {
 
             .employess_text {
@@ -333,6 +337,7 @@
             }
         }
     }
+    
 
 }
 
@@ -743,7 +748,7 @@
                 .analyzes_in  {
                     gap: 10px;
 
-                    h5 {
+                    li {
                         font-size: 16px;
                         margin-bottom: 15px;
 
@@ -839,6 +844,7 @@
             .menu_in {
                 .menu_messanger {
                     display: flex;
+                    margin-top: 30px;
 
                     .messenger {
                         display: none;
@@ -997,7 +1003,7 @@
             width: 85px;
 
             button {
-                font-size: 16px;
+                font-size: 18px;
             }
 
             .language_down {
@@ -1573,6 +1579,10 @@
             height: 45px;
             width: 85px;
             font-size: 16px;
+            
+            button {
+                font-size: 16px;
+            }
 
             .language_down {
                 width: 85px;
@@ -2447,7 +2457,7 @@
 
             .menu_in {
                 .menu_messanger {
-                    margin: 0 auto;
+                    margin: 0 auto 20px auto;
                     flex-direction: column;
 
                     .messenger {
@@ -2710,7 +2720,7 @@
                 }
 
                 .analyzes_in {
-                    h5 {
+                    li {
 
                         gap: 5px;
                         font-size: 14px;
@@ -2879,6 +2889,10 @@
             width: 65px;
             height: 35px;
             font-size: 13px;
+
+            button {
+                font-size: 13px;
+            }
 
             .language_down {
                 width: 65px;
