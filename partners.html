@@ -44,13 +44,13 @@
                     <span class="menu_close">Закрыть</span>
                 </button>
                 <div class="language">
-                    <button class="language_btn">
+                    <div class="language_btn">
                         <span class="language_btn_name">рус</span>
                         <img src="./images/language_icon.svg" alt="">
-                    </button>
+                    </div>
                     <div class="language_down">
-                        <button>Eng</button>
-                        <button>Rus</button>
+                        <a href="#" class="language_down_link">Eng</a>
+                        <a heef="#" class="language_down_link">Rus</a>
                     </div>
                 </div>
             </div>
@@ -134,15 +134,19 @@
 
     <!-- link_path -->
     <div class="main_container">
-        <div class="link_path">
-            <a href="#">Главная</a>
-            <span>
+        <ul class="link_path">
+            <li>
+                <a href="#">Главная</a>
+            </li>
+            <li>
                 <svg xmlns="http://www.w3.org/2000/svg" width="7" height="8" viewBox="0 0 7 8" fill="none">
                     <circle cx="3.5" cy="4" r="3.5" fill="#6E86C0"/>
                 </svg>
-            </span>
-            <a href="#">партнеры</a>
-        </div>
+            </li>
+            <li>
+                <span>партнеры</span>
+            </li>
+        </ul>
     </div>
     <!-- link_path -->
 
@@ -341,10 +345,10 @@
                     <a href="#" class="footer_link">Контакты</a>
 
                     <p class="address">Почта</p>
-                    <a class="footer_text" href="mailto:bolashak.kazahstan@mail.ru">bolashak.kazahstan@mail.ru</a>
+                    <a class="footer_text email_link" href="mailto:bolashak.kazahstan@mail.ru">bolashak.kazahstan@mail.ru</a>
                 </div>
                 <div class="footer_block">
-                    <a href="#" class="button_three button_three_footer_one">Оставить заявку</a>
+                    <button class="button_three button_three_footer_one modal_btn">Оставить заявку</button>
                     <a href="#" class="button_three button_three_footer_two">стать сурмамой</a>
                     <p class="address address_end">Соц. сети</p>
                     <div class="messengers">

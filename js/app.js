@@ -14,14 +14,20 @@ menu.addEventListener('click', () => {
 
 });
 
-const modal_btn = document.querySelector('.modal_btn');
+const modal_btns = document.querySelectorAll('.modal_btn');
 const modal_wrapper = document.querySelector('.modal_wrapper');
 const modal = document.querySelector('.main_modal');
 
-modal_btn.addEventListener('click', () => {
-  modal.classList.toggle('active');
-  modal_wrapper.classList.toggle('active')
+modal_btns.forEach(modal_btn => {
+  modal_btn.addEventListener('click', () => {
+    modal.classList.toggle('active');
+    modal_wrapper.classList.toggle('active')
+  });
+
 });
+
+
+
 
 modal_wrapper.addEventListener('click', () => {
   modal.classList.remove('active');
@@ -32,7 +38,7 @@ modal_wrapper.addEventListener('click', () => {
 const language = document.querySelector('.language');
 const language_btn = document.querySelector('.language_btn');
 const language_btn_name = document.querySelector('.language_btn_name');
-const language_down = document.querySelectorAll('.language .language_down button');
+const language_down = document.querySelectorAll('.language .language_down .language_down_link');
 
 language_btn.addEventListener('click', () => {
   language.classList.toggle('active');
@@ -87,8 +93,8 @@ try {
       },
     },
     navigation: {
-      nextEl: ".right_btn",
-      prevEl: ".left_btn",
+      nextEl: ".news_slider_btns .right_btn",
+      prevEl: ".news_slider_btns .left_btn",
     },
   });
 

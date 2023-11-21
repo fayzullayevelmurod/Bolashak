@@ -1521,7 +1521,7 @@
         margin: 10px 0;
         gap: 5px;
         
-        a {
+        a, span {
             font-size: 12px;
         }
 
@@ -1579,13 +1579,21 @@
             height: 45px;
             width: 85px;
             font-size: 16px;
-            
-            button {
-                font-size: 16px;
+
+            .language_btn {
+
+                .language_btn_name {
+                    font-size: 16px;
+                }
             }
+            
 
             .language_down {
                 width: 85px;
+
+                .language_down_link {
+                    font-size: 16px;
+                }
             }
         }
 
@@ -2180,6 +2188,10 @@
             padding: 0;
             .contact {
                 padding: 25px;
+
+                .contact_address {
+                    font-size: 20px;
+                }
 
                 a {
                     font-size: 20px;
@@ -2890,12 +2902,23 @@
             height: 35px;
             font-size: 13px;
 
+            .language_btn {
+
+                .language_btn_name {
+                    font-size: 13px;
+                }
+            }
+
             button {
                 font-size: 13px;
             }
 
             .language_down {
                 width: 65px;
+
+                .language_down_link {
+                    font-size: 13px;
+                }
             }
 
             img {
