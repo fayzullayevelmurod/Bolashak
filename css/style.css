@@ -3559,7 +3559,7 @@ footer .footer_bottom p {
 @media (max-width: 993px) {
   .main_title {
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 35px !important;
   }
   header .menu {
     width: 112px;
@@ -3922,7 +3922,7 @@ footer .footer_bottom p {
   }
   .main_title {
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 30px !important;
   }
   .main_title_under {
     font-size: 16px;
@@ -4460,6 +4460,12 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 576px) {
+  .main_title {
+    font-size: 25px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
   #massmedia .massmedia_card {
     margin-bottom: 20px;
     width: 100%;

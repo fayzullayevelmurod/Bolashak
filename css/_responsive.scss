@@ -987,7 +987,7 @@
 @media (max-width: 993px) {
     .main_title {
         margin-bottom: 10px;
-        font-size: 35px;
+        font-size: 35px !important;
     }
 
     header {
@@ -1534,7 +1534,7 @@
 
     .main_title {
         margin-bottom: 10px;
-        font-size: 35px;
+        font-size: 30px !important;
     }
 
     .main_title_under  {
@@ -2306,6 +2306,15 @@
 }
 
 @media (max-width: 576px) {
+
+    .main_title {
+        font-size: 25px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
     #massmedia {
         .massmedia_card {
             margin-bottom: 20px;
@@ -2828,10 +2837,6 @@
     }
 }
 
-@media (max-width: 480px) {
-
-}
-
 @media (max-width: 450px) {
     #contact {
         .wrapper_container .contact .contact_btns {
@@ -3147,8 +3152,4 @@
             font-size: 11px;
         }
     }
-}
-
-@media (max-width: 375px) {
-    
 }
