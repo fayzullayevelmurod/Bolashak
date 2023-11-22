@@ -337,6 +337,14 @@
             }
         }
     }
+
+    #employees {
+        .employees_card {
+            img  {
+                height: 300px;
+            }
+        }
+    }
     
 
 }
@@ -2253,6 +2261,14 @@
         }
     }
 
+    #employees {
+        .employees_card {
+            img  {
+                height: 320px;
+            }
+        }
+    }
+
     footer {
         .footer_top {
             .footer_block {
@@ -2459,13 +2475,13 @@
         }
     }
 
-    #employees {
-        .employees_card {
-            img {
-                height: 250px;
-            }
-        }
-    }
+    // #employees {
+    //     .employees_card {
+    //         img {
+    //             height: 250px;
+    //         }
+    //     }
+    // }
 }
 
 @media (max-width: 566px) {
@@ -3150,6 +3166,14 @@
 
         .accordion-item-body-content {
             font-size: 11px;
+        }
+    }
+
+    #contact {
+        .wrapper_container {
+            .contact {
+                max-width: 100%;
+            }
         }
     }
 }

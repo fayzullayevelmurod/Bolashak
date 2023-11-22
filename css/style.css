@@ -471,7 +471,7 @@ header .number span {
 }
 header .menu_bg {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 141px;
   width: 100%;
   height: 100%;
@@ -1932,6 +1932,10 @@ header .menu_in .menu_block .menu_block_height {
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.3px;
+  transition: 0.2s ease;
+}
+#contact .wrapper_container .contact a:hover {
+  color: #ee469d;
 }
 #contact .wrapper_container .contact .contact_btns {
   margin-top: 100px;
@@ -3114,6 +3118,9 @@ footer .footer_bottom p {
   }
   #home .home_slider .home_slider_effekt {
     width: 30%;
+  }
+  #employees .employees_card img {
+    height: 300px;
   }
 }
 @media (max-width: 1300px) {
@@ -4425,6 +4432,9 @@ footer .footer_bottom p {
     margin-bottom: 15px;
     margin-top: 0;
   }
+  #employees .employees_card img {
+    height: 320px;
+  }
   footer .footer_top .footer_block {
     width: 100%;
   }
@@ -4569,9 +4579,6 @@ footer .footer_bottom p {
   #legislation .news_slider .newsSlider .massmedia_card .massmedia_card_img .massmedia_date {
     padding: 5px 10px;
     font-size: 12px;
-  }
-  #employees .employees_card img {
-    height: 250px;
   }
 }
 @media (max-width: 566px) {
@@ -5022,5 +5029,8 @@ footer .footer_bottom p {
   }
   #questions .accordion-item-body-content {
     font-size: 11px;
+  }
+  #contact .wrapper_container .contact {
+    max-width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

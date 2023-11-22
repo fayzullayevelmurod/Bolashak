@@ -1,16 +1,16 @@
 const menu = document.querySelector('.menu');
 const menu_bg = document.querySelector('.menu_bg');
-const body = document.querySelector('body');
+// const body = document.querySelector('body');
 
 menu.addEventListener('click', () => {
   menu.classList.toggle('active');
   menu_bg.classList.toggle('active');
 
-  if (body.classList.contains('hidden')) {
-    body.classList.remove('hidden');
-  } else {
-    body.classList.add('hidden');
-  }
+  // if (body.classList.contains('hidden')) {
+  //   body.classList.remove('hidden');
+  // } else {
+  //   body.classList.add('hidden');
+  // }
 
 });
 
