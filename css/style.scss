@@ -544,11 +544,13 @@ header {
         width: 100%;
         height: 100%;
         z-index: 9;
-        background: rgba(0, 0, 0, 0.50);
+        // background: rgba(0, 0, 0, 0.50);
+
     }
 
     .menu_bg.active {
         display: block;
+    
     }
 
     .menu_in {
@@ -562,6 +564,10 @@ header {
         left: 0;
         width: 100%;
         padding: 38px 0 76px 0;
+        display: block;
+        -webkit-box-shadow: -1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: -1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: -1px 3px 8px 0px rgba(34, 60, 80, 0.2);
 
         .menu_messanger {
             display: block;
