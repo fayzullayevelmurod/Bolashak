@@ -721,7 +721,7 @@ header .menu_in .menu_block .menu_block_height {
   background: rgba(212, 224, 253, 0.5);
   margin-bottom: 24px;
 }
-#home .mission .mission_left h1 {
+#home .mission .mission_left h3 {
   max-width: 930px;
   color: #6E86C0;
   font-family: "Soyuz Grotesk";
@@ -818,7 +818,7 @@ header .menu_in .menu_block .menu_block_height {
   border-radius: 99px;
   background: rgba(255, 98, 180, 0.1);
 }
-#home .opportunity .opportunity_text h1 {
+#home .opportunity .opportunity_text h3 {
   color: #FF62B4;
   font-family: "Soyuz Grotesk";
   font-size: 54px;
@@ -1022,7 +1022,7 @@ header .menu_in .menu_block .menu_block_height {
   border-radius: 99px;
   background: rgba(212, 224, 253, 0.5);
 }
-#home .partners_slider .partners_title h1 {
+#home .partners_slider .partners_title h3 {
   margin-top: 24px;
   color: #6E86C0;
   font-family: "Soyuz Grotesk";
@@ -1147,7 +1147,7 @@ header .menu_in .menu_block .menu_block_height {
   border-radius: 99px;
   background: #FFF;
 }
-#home .application .application_right h1 {
+#home .application .application_right h3 {
   width: 570px;
   margin-top: 24px;
   margin-bottom: 50px;
@@ -1220,7 +1220,7 @@ header .menu_in .menu_block .menu_block_height {
   border-radius: 99px;
   background: rgba(212, 224, 253, 0.5);
 }
-#home .questions .questions_title h1 {
+#home .questions .questions_title h3 {
   max-width: 858px;
   margin-top: 24px;
   color: #6E86C0;
@@ -1291,7 +1291,7 @@ header .menu_in .menu_block .menu_block_height {
   border-radius: 40px;
   background: rgba(255, 98, 180, 0.07);
 }
-#home .contact_block .contact_block_left h1 {
+#home .contact_block .contact_block_left h3 {
   max-width: 660px;
   color: #FF62B4;
   font-family: "Soyuz Grotesk";
@@ -2959,7 +2959,7 @@ footer .footer_bottom p {
     flex: 1;
     padding: 30px;
   }
-  #home .contact_block .contact_block_left h1 {
+  #home .contact_block .contact_block_left h3 {
     font-size: 40px;
   }
   #home .contact_block .contact_block_left p {
@@ -3161,7 +3161,7 @@ footer .footer_bottom p {
     padding: 6px 12px;
     font-size: 16px;
   }
-  #home .application .application_right h1 {
+  #home .application .application_right h3 {
     width: 400px;
     font-size: 30px;
     margin-bottom: 30px;
@@ -3180,7 +3180,7 @@ footer .footer_bottom p {
     flex-direction: column;
     gap: 30px;
   }
-  #home .mission .main_container .mission_left h1 {
+  #home .mission .main_container .mission_left h3 {
     max-width: 100%;
   }
   #home .mission .main_container .mission_right {
@@ -3339,7 +3339,7 @@ footer .footer_bottom p {
     flex: 1;
     padding: 30px;
   }
-  #home .contact_block .contact_block_left h1 {
+  #home .contact_block .contact_block_left h3 {
     font-size: 40px;
   }
   #home .contact_block .contact_block_left p {
@@ -3646,7 +3646,7 @@ footer .footer_bottom p {
   #home .mission .main_container .mission_right .mission_right_statistic h4 {
     font-size: 22px;
   }
-  #home .mission .main_container .mission_left h1 {
+  #home .mission .main_container .mission_left h3 {
     font-size: 35px;
     margin-bottom: 20px;
   }
@@ -3661,7 +3661,7 @@ footer .footer_bottom p {
     font-size: 16px;
     padding: 6px 15px;
   }
-  #home .partners_slider .partners_title h1 {
+  #home .partners_slider .partners_title h3 {
     font-size: 35px;
   }
   #home .partners_slider .partners_title img {
@@ -3671,7 +3671,7 @@ footer .footer_bottom p {
     font-size: 16px;
     padding: 6px 16px;
   }
-  #home .opportunity .opportunity_text h1 {
+  #home .opportunity .opportunity_text h3 {
     margin-top: 15px;
     font-size: 35px;
     margin-bottom: 20px;
@@ -3693,7 +3693,7 @@ footer .footer_bottom p {
     font-size: 16px;
     padding: 6px 15px;
   }
-  #home .questions .questions_title h1 {
+  #home .questions .questions_title h3 {
     font-size: 25px;
   }
   #home .application .wrapper_container {
@@ -3705,7 +3705,7 @@ footer .footer_bottom p {
   #home .contact_block .wrapper_container .contact_block_left {
     width: 100%;
   }
-  #home .contact_block .wrapper_container .contact_block_left h1 {
+  #home .contact_block .wrapper_container .contact_block_left h3 {
     font-size: 25px;
   }
   #home .contact_block .wrapper_container .contact_block_left .contact_block_left_btns button {
@@ -4056,7 +4056,7 @@ footer .footer_bottom p {
     font-size: 16px;
     padding: 6px 16px;
   }
-  #home .mission .main_container .mission_left h1 {
+  #home .mission .main_container .mission_left h3 {
     font-size: 35px;
     margin-bottom: 20px;
   }
@@ -4089,7 +4089,7 @@ footer .footer_bottom p {
     font-size: 16px;
     padding: 6px 16px;
   }
-  #home .opportunity .opportunity_text h1 {
+  #home .opportunity .opportunity_text h3 {
     margin-top: 15px;
     font-size: 35px;
     margin-bottom: 20px;
@@ -4115,7 +4115,7 @@ footer .footer_bottom p {
     font-size: 16px;
     padding: 6px 15px;
   }
-  #home .questions .questions_title h1 {
+  #home .questions .questions_title h3 {
     font-size: 25px;
   }
   #home .questions .accardion_btn {
@@ -4708,7 +4708,7 @@ footer .footer_bottom p {
   #home .opportunity .opportunity_img img {
     width: 100%;
   }
-  #home .application .application_right h1 {
+  #home .application .application_right h3 {
     width: 100%;
   }
   #home .home_slider {
@@ -4936,7 +4936,7 @@ footer .footer_bottom p {
     margin-bottom: 10px;
     font-size: 14px;
   }
-  #home .mission .main_container .mission_left h1 {
+  #home .mission .main_container .mission_left h3 {
     font-size: 25px;
     margin-bottom: 15px;
   }
@@ -4958,7 +4958,7 @@ footer .footer_bottom p {
   #home .opportunity .opportunity_text span {
     font-size: 14px;
   }
-  #home .opportunity .opportunity_text h1 {
+  #home .opportunity .opportunity_text h3 {
     font-size: 25px;
   }
   #home .opportunity .opportunity_text p {
@@ -4985,7 +4985,7 @@ footer .footer_bottom p {
   #home .partners_slider .partners_title span {
     font-size: 14px;
   }
-  #home .partners_slider .partners_title h1 {
+  #home .partners_slider .partners_title h3 {
     font-size: 25px;
   }
   #home .partners_slider .partenrsSlider .partners_card h3 {
@@ -5000,7 +5000,7 @@ footer .footer_bottom p {
   #home .application .application_right span {
     font-size: 14px;
   }
-  #home .application .application_right h1 {
+  #home .application .application_right h3 {
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 25px;
@@ -5014,13 +5014,13 @@ footer .footer_bottom p {
   #home .questions .questions_title span {
     font-size: 16px;
   }
-  #home .questions .questions_title h1 {
+  #home .questions .questions_title h3 {
     margin-top: 20px;
   }
   #home .contact_block .wrapper_container .contact_block_left {
     padding: 20px;
   }
-  #home .contact_block .wrapper_container .contact_block_left h1 {
+  #home .contact_block .wrapper_container .contact_block_left h3 {
     font-size: 25px;
   }
   #home .contact_block .wrapper_container .contact_block_left p {
