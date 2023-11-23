@@ -488,12 +488,12 @@ header .menu_in {
   flex-direction: column-reverse;
   background-color: #fff;
   position: absolute;
-  top: 0;
+  top: -5px;
   left: 0;
   width: 100%;
   padding: 38px 0 76px 0;
   display: block;
-  box-shadow: -1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -2px 6px 9px -5px rgba(34, 60, 80, 0.2);
 }
 header .menu_in .menu_messanger {
   display: block;
