@@ -274,7 +274,18 @@
     }
 }
 
+@media (max-width: 1500px) {
+    
+}
+
 @media (max-width: 1400px) {
+
+
+    .main_title {
+        font-size: 50px !important;
+        margin-bottom: 30px;
+    }
+
     header {
         padding: 30px 0 10px 0;
         .main_container {
@@ -389,6 +400,8 @@
         }
 
         .news_slider {
+            margin-top: 30px;
+            margin-bottom: 30px;
             .news_slider_head {
                 h2 {
                     font-size: 40px
@@ -397,6 +410,9 @@
         }
 
         .partners_slider {
+            .partenrsSlider {
+                margin-bottom: 40px;
+            }
             .partners_title {
                 h3 {
                     font-size: 40px
@@ -404,13 +420,20 @@
             }
         }
 
+        .contact_block {
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+
         .questions {
+            padding-top: 40px;
             .questions_title {
                 h3 {
                     font-size: 40px;
                 }
             }
         }
+
 
         .mission {
             margin-top: 30px;
