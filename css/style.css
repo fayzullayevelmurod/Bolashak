@@ -3081,6 +3081,9 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 1500px) {
+  #home .mission .mission_left span {
+    font-size: 14px;
+  }
   #about .about_text p {
     font-size: 20px;
   }
@@ -3208,6 +3211,45 @@ footer .footer_bottom p {
   header .main_container {
     padding: 0 50px;
   }
+  header .header_right {
+    gap: 20px;
+  }
+  header .header_right .button_three {
+    padding: 0 28px;
+    font-size: 16px;
+    height: 50px;
+  }
+  header .number a {
+    font-size: 20px;
+  }
+  header .number span {
+    font-size: 12px;
+  }
+  header .logo {
+    gap: 10px;
+  }
+  header .menu {
+    margin-left: 20px;
+    height: 50px;
+    font-size: 16px;
+  }
+  header .language {
+    height: 50px;
+    font-size: 16px;
+  }
+  header .messenger {
+    margin-right: 10px;
+  }
+  header .messenger a {
+    width: 50px;
+    height: 50px;
+  }
+  header .messenger a img {
+    width: 100%;
+  }
+  header .messenger .first_icon img {
+    width: 50%;
+  }
   #employees {
     margin-bottom: 40px;
   }
@@ -3244,52 +3286,135 @@ footer .footer_bottom p {
   #legislation .legislation_text h4 {
     font-size: 25px;
   }
+  #home .home_wrapper {
+    height: 500px;
+  }
+  #home .home_wrapper .home_img {
+    width: 100%;
+  }
   #home .home_slider {
-    width: 620px;
+    width: 650px;
   }
   #home .home_slider span {
-    font-size: 12px;
+    font-size: 14px;
+    margin-bottom: 10px;
   }
   #home .home_slider h1 {
-    font-size: 45px;
+    font-size: 35px;
+    margin-bottom: 15px;
   }
   #home .home_slider p {
-    font-size: 18px;
-    margin-bottom: 50px;
+    font-size: 16px;
+    margin-bottom: 30px;
   }
   #home .home_slider .pagination {
     gap: 10px;
   }
   #home .home_slider .home_btns a {
-    height: 55px;
-    width: 230px;
-    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
   }
   #home .home_slider .home_slider_effekt {
     width: 30%;
   }
   #home .mission .mission_left h3 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
+  }
+  #home .mission .mission_left a {
+    font-size: 20px;
+  }
+  #home .mission .mission_right p {
+    font-size: 16px;
+  }
+  #home .mission .mission_right .mission_right_statistic {
+    padding-top: 10px;
+    gap: 37px;
+  }
+  #home .mission .mission_right .mission_right_statistic h4 {
+    font-size: 30px;
+  }
+  #home .mission .mission_right .mission_right_statistic p {
+    font-size: 16px;
   }
   #home .opportunity {
     margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  #home .opportunity .opportunity_text span {
+    font-size: 14px;
   }
   #home .opportunity .opportunity_text h3 {
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 35px;
+  }
+  #home .opportunity .opportunity_text p {
+    font-size: 14px;
+  }
+  #home .opportunity .opportunity_text a {
+    font-size: 20px;
+  }
+  #home .opportunity .opportunity_effekt {
+    bottom: 0;
   }
   #home .news_slider {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  #home .news_slider .main_container {
+    padding: 40px 20px;
+  }
+  #home .news_slider .newsSlider .massmedia_card .massmedia_card_img .massmedia_date {
+    font-size: 14px;
+  }
+  #home .news_slider .newsSlider .massmedia_card h4 {
+    font-size: 20px;
+  }
+  #home .news_slider .newsSlider .massmedia_card p {
+    font-size: 14px;
+  }
+  #home .news_slider .newsSlider .massmedia_card a {
+    font-size: 20px;
+  }
+  #home .news_slider .news_slider_head {
+    margin-bottom: 30px;
+  }
+  #home .news_slider .news_slider_head span {
+    font-size: 14px;
+  }
   #home .news_slider .news_slider_head h2 {
-    font-size: 40px;
+    font-size: 35px;
+  }
+  #home .news_slider .news_slider_btns {
+    gap: 10px;
+  }
+  #home .news_slider .news_slider_btns button {
+    width: 50px;
+  }
+  #home .news_slider .news_slider_btns button img {
+    width: 100%;
   }
   #home .partners_slider .partenrsSlider {
     margin-bottom: 40px;
   }
+  #home .partners_slider .partners_title span {
+    font-size: 14px;
+  }
   #home .partners_slider .partners_title h3 {
-    font-size: 40px;
+    font-size: 35px;
+  }
+  #home .partners_slider .partners_btn button {
+    width: 50px;
+  }
+  #home .partners_slider .partners_btn button img {
+    width: 100%;
+  }
+  #home .partners_slider .partenrsSlider .partners_card h3 {
+    font-size: 20px;
+  }
+  #home .partners_slider .partenrsSlider .partners_card a {
+    font-size: 16px;
   }
   #home .news_slider_bottom {
     margin-bottom: 40px;
@@ -3298,23 +3423,45 @@ footer .footer_bottom p {
     margin-top: 40px;
     margin-bottom: 50px;
   }
+  #home .contact_block .contact_block_left h3 {
+    font-size: 35px;
+  }
+  #home .contact_block .contact_block_left p {
+    font-size: 14px;
+  }
+  #home .mission_bottom {
+    margin-top: 40px;
+  }
   #home .questions {
     padding-top: 40px;
   }
+  #home .questions .questions_title span {
+    font-size: 14px;
+  }
   #home .questions .questions_title h3 {
-    font-size: 40px;
+    font-size: 35px;
+  }
+  #home .questions .accardion_btn {
+    padding: 25px;
+  }
+  #home .questions .accardion_btn span {
+    font-size: 20px;
   }
   #home .mission {
     margin-top: 30px;
   }
+  #home .application .application_right span {
+    font-size: 14px;
+  }
   #home .application .application_right h3 {
-    font-size: 40px;
+    font-size: 35px;
+    margin-bottom: 25px;
   }
   #home .application .application_right p {
-    font-size: 20px;
+    font-size: 14px;
   }
   #home .application .application_right img:not(.application_effekt) {
-    width: 60px;
+    width: 50px;
   }
   #employees .employees_card img {
     height: 300px;
@@ -3628,6 +3775,9 @@ footer .footer_bottom p {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  #home .home_slider {
+    width: 550px;
+  }
   .main_title {
     font-size: 55px;
     margin-bottom: 20px;
@@ -3869,6 +4019,9 @@ footer .footer_bottom p {
   }
   header .header_right .messenger a:not(.first_icon) img {
     width: 40px;
+  }
+  #home .wrapper_container {
+    height: auto;
   }
   #home .home_wrapper {
     flex-direction: column;
