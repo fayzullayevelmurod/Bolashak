@@ -612,9 +612,24 @@
             }
         }
 
-
         .mission {
             margin-top: 30px;
+        }
+
+        .application {
+            .application_right {
+                h3 {
+                    font-size: 40px;
+                }
+
+                p {
+                    font-size: 20px;
+                }
+
+                img:not(.application_effekt) {
+                    width: 60px;
+                }
+            }
         }
     }
 
@@ -626,7 +641,94 @@
         }
     }
     
-    
+    #questionnaire {
+        .questionnaire_home {
+            margin-bottom: 40px;
+
+            h4 {
+                font-size: 30px;
+            }
+        }
+
+        .analyzes {
+            padding-bottom: 80px;
+
+            .analizy_effekt {
+                width: 100%;
+            }
+
+            .wrapper_container {
+                padding: 50px;
+
+                h2 {
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                }
+
+                .analyzes_in {
+                    li {
+                        span {
+                            width: 35px;
+                            height: 35px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .documents {
+            margin-bottom: 60px;
+
+            .main_container {
+                .documents_left {
+                    h2 {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+
+        .questionnaire_text {
+            margin: 50px 0;
+
+            .main_container {
+                gap: 30px;
+
+                .questionnaire_text_left {
+                    p {
+                        font-size: 20px;
+                    }
+
+                    .text_left {
+                        margin-top: 30px;
+
+                        h2 {
+                            font-size: 30px;
+                        }
+
+                        li {
+                            font-size: 20px;
+                        }
+                    }
+
+                    span {
+                        font-size: 20px;
+                    }
+                }
+
+                .questionnaire_text_right {
+                    h4 {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
 
 }
 
