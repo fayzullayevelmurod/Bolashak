@@ -3018,6 +3018,25 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 1600px) {
+  #home .home_slider span {
+    font-size: 16px;
+  }
+  #home .home_slider h1 {
+    font-size: 60px;
+  }
+  #home .home_slider p {
+    font-size: 18px;
+  }
+  #home .home_slider .home_btns a {
+    height: 65px;
+    width: 280px;
+    font-size: 22px;
+  }
+  #home .home_slider .home_slider_effekt {
+    width: 35%;
+  }
+}
+@media (max-width: 1600px) {
   header .menu_in .main_container {
     gap: 70px;
   }
@@ -3063,6 +3082,12 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 1400px) {
+  header {
+    padding: 30px 0 10px 0;
+  }
+  header .main_container {
+    padding: 0 50px;
+  }
   #employees .main_container {
     gap: 28px;
   }
@@ -3100,10 +3125,10 @@ footer .footer_bottom p {
     width: 620px;
   }
   #home .home_slider span {
-    font-size: 16px;
+    font-size: 12px;
   }
   #home .home_slider h1 {
-    font-size: 40px;
+    font-size: 45px;
   }
   #home .home_slider p {
     font-size: 18px;
@@ -3119,6 +3144,25 @@ footer .footer_bottom p {
   }
   #home .home_slider .home_slider_effekt {
     width: 30%;
+  }
+  #home .mission .mission_left h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  #home .opportunity .opportunity_text h3 {
+    font-size: 40px;
+  }
+  #home .news_slider .news_slider_head h2 {
+    font-size: 40px;
+  }
+  #home .partners_slider .partners_title h3 {
+    font-size: 40px;
+  }
+  #home .questions .questions_title h3 {
+    font-size: 40px;
+  }
+  #home .mission {
+    margin-top: 30px;
   }
   #employees .employees_card img {
     height: 300px;
