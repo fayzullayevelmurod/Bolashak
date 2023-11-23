@@ -477,7 +477,6 @@ header .menu_bg {
   width: 100%;
   height: 100%;
   z-index: 9;
-  background: rgba(0, 0, 0, 0.5);
 }
 header .menu_bg.active {
   display: block;
@@ -493,6 +492,8 @@ header .menu_in {
   left: 0;
   width: 100%;
   padding: 38px 0 76px 0;
+  display: block;
+  box-shadow: -1px 3px 8px 0px rgba(34, 60, 80, 0.2);
 }
 header .menu_in .menu_messanger {
   display: block;
@@ -1649,7 +1650,7 @@ header .menu_in .menu_block .menu_block_height {
 }
 #massmedia .massmedia_card {
   margin-bottom: 70px;
-  width: calc(25% - 24px);
+  width: calc(25% - 18px);
 }
 #massmedia .massmedia_card .massmedia_card_img {
   position: relative;
@@ -3082,6 +3083,123 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 1500px) {
+  #about .about_text p {
+    font-size: 20px;
+  }
+  #about .about_statistic span {
+    font-size: 20px;
+  }
+  #documentation {
+    padding-bottom: 50px;
+  }
+  #documentation .documentation_title {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  #licenses {
+    margin-bottom: 50px;
+  }
+  .main_title_under {
+    font-size: 20px;
+  }
+  #price .price_title p {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  #price .price_services {
+    margin-bottom: 40px;
+  }
+  #price .price_services .price_block {
+    padding: 25px 40px;
+  }
+  #price .price_services .price_block .price_block_left p,
+  #price .price_services .price_block .price_block_right p {
+    font-size: 20px;
+  }
+  #legislation .legislation_text p {
+    font-size: 20px;
+  }
+  #legislation .legislation_text blockquote {
+    padding: 25px;
+    font-size: 20px;
+  }
+  #legislation .legislation_right .massanger a {
+    width: 60px;
+  }
+  #legislation .legislation_right .massanger a img {
+    width: 100%;
+  }
+  #legislation .legislation_right h3 {
+    font-size: 40px;
+  }
+  #legislation .legislation_right p {
+    margin-bottom: 60px;
+    font-size: 20px;
+  }
+  #legislation .news_slider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #home .partners_slider .partners_title {
+    margin-bottom: 30px;
+  }
+  #home .application .application_right h3 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  #home .application .application_right p {
+    font-size: 20px;
+  }
+  #questions .application {
+    margin: 40px 0;
+  }
+  #questions .accardion_btn {
+    padding: 25px;
+  }
+  #questions .accardion_btn span {
+    font-size: 22px;
+  }
+  #massmedia {
+    margin-bottom: 50px;
+  }
+  #massmedia .massmedia_card {
+    margin-bottom: 10px;
+  }
+  #massmedia .massmedia_card h4 {
+    font-size: 22px;
+  }
+  #massmedia .massmedia_card p {
+    font-size: 18px;
+  }
+  #massmedia .massmedia_card a {
+    font-size: 20px;
+  }
+  #massmedia .massmedia_card .massmedia_card_img .massmedia_date {
+    font-size: 14px;
+  }
+  #massmedia .massmedia_pagination {
+    margin-top: 30px;
+  }
+  .main_modal {
+    width: 500px;
+    padding: 30px 40px;
+  }
+  .main_modal .modal_img {
+    width: 25%;
+    z-index: -1;
+  }
+  .main_modal input {
+    height: 60px;
+    font-size: 18px;
+  }
+  .main_modal textarea {
+    font-size: 18px;
+    height: 140px;
+  }
+  .main_modal .button_three {
+    font-size: 22px;
+    height: 60px;
+  }
   .main_title {
     font-size: 50px !important;
     margin-bottom: 30px;
@@ -3091,6 +3209,9 @@ footer .footer_bottom p {
   }
   header .main_container {
     padding: 0 50px;
+  }
+  #employees {
+    margin-bottom: 40px;
   }
   #employees .main_container {
     gap: 28px;
@@ -3111,7 +3232,7 @@ footer .footer_bottom p {
     font-size: 25px;
   }
   #employees .employees_card .more_link {
-    margin-top: 33px;
+    margin-top: 10px;
   }
   #documentation .documentation_card .documentation_img {
     padding: 30px 0;
@@ -3354,7 +3475,7 @@ footer .footer_bottom p {
     width: 100%;
   }
   #massmedia .massmedia_card {
-    width: calc(33.3333333333% - 24px);
+    width: calc(33.3333333333% - 16px);
   }
   #contact .wrapper_container iframe {
     height: 690px;
@@ -3884,7 +4005,7 @@ footer .footer_bottom p {
     width: calc(50% - 10px);
   }
   #massmedia .massmedia_card {
-    width: calc(50% - 24px);
+    width: calc(50% - 12px);
     margin-bottom: 30px;
   }
   #contact {
@@ -4084,6 +4205,12 @@ footer .footer_bottom p {
   .main_title_under {
     font-size: 16px;
     margin-bottom: 15px;
+  }
+  header {
+    padding: 30px 20px;
+  }
+  header .main_container {
+    padding: 0 20px;
   }
   header .menu_bg {
     top: 112px;
@@ -4447,7 +4574,7 @@ footer .footer_bottom p {
 @media (max-width: 600px) {
   .main_modal {
     border-radius: 20px;
-    width: calc(100% - 20px);
+    width: calc(75% - 20px);
     padding: 20px;
   }
   .main_modal .modal_img {
@@ -4979,6 +5106,17 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 450px) {
+  .main_modal {
+    border-radius: 20px;
+    width: calc(100% - 20px);
+  }
+  .main_modal input,
+  .main_modal textarea {
+    font-size: 14px;
+  }
+  .main_modal .button_three {
+    font-size: 16px;
+  }
   #contact .wrapper_container .contact .contact_btns {
     display: flex;
     align-items: center;

@@ -276,6 +276,188 @@
 
 @media (max-width: 1500px) {
 
+    #about {
+        .about_text {
+            p {
+                font-size: 20px;
+            }
+
+        }
+
+        .about_statistic {
+            span {
+                font-size: 20px;
+            }
+        }
+    }
+
+    #documentation {
+        padding-bottom: 50px;
+
+        .documentation_title {
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+    }
+
+    #licenses {
+        margin-bottom: 50px;
+
+    }
+
+    .main_title_under {
+        font-size: 20px;
+    }
+
+    #price {
+        .price_title {
+            p {
+                font-size: 20px;
+                padding-bottom: 30px;
+            }
+        }
+
+        .price_services {
+            margin-bottom: 40px;
+            .price_block {
+                padding: 25px 40px;
+                .price_block_left,
+                .price_block_right  {
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    #legislation {
+        .legislation_text {
+            p {
+                font-size: 20px;
+            }
+
+            blockquote {
+                padding: 25px;
+                font-size: 20px;
+            }
+        }
+        .legislation_right {
+
+            .massanger {
+                a {
+                    width: 60px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            h3 {
+                font-size: 40px;
+            }
+
+            p {
+                margin-bottom: 60px;
+                font-size: 20px;
+            }
+        }
+
+        .news_slider {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    }
+
+    #home {
+        .partners_slider {
+            .partners_title {
+                margin-bottom: 30px;
+            }
+        }
+
+        .application {
+            .application_right {
+                h3 {
+                    font-size: 45px;
+                    margin-bottom: 30px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    #questions {
+        .application {
+            margin: 40px 0;
+        }
+        .accardion_btn {
+            padding: 25px;
+
+            span {
+                font-size: 22px;
+            }
+        }
+    }
+
+    #massmedia  {
+        margin-bottom: 50px;
+        .massmedia_card {
+            margin-bottom: 10px;
+            h4 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 18px;
+            }
+
+            a {
+                font-size: 20px;
+            }
+            .massmedia_card_img {
+                .massmedia_date {
+                    font-size: 14px;
+                }
+            }
+
+        }
+        .massmedia_pagination {
+            margin-top: 30px;
+        }
+    }
+
+    .main_modal {
+        width: 500px;
+
+        .modal_img {
+            width: 25%;
+            z-index: -1;
+        }
+        padding: 30px 40px;
+        input {
+            height: 60px;
+            font-size: 18px;
+        }
+
+        textarea {
+            font-size: 18px;
+            height: 140px;
+        }
+
+        .button_three {
+            font-size: 22px;
+            height: 60px;
+        }
+
+    }
+
+    
+
+
+
+
     .main_title {
         font-size: 50px !important;
         margin-bottom: 30px;
@@ -288,7 +470,7 @@
         }
     }
     #employees {
-
+        margin-bottom: 40px;
         .main_container {
             gap: 28px;
         }
@@ -313,7 +495,7 @@
             }
 
             .more_link {
-                margin-top: 33px;
+                margin-top: 10px;
             }
             
         }
@@ -693,7 +875,7 @@
 
     #massmedia {
         .massmedia_card {
-            width: calc(100% /3 - 24px);
+            width: calc(100% /3 - 16px);
         }
     }
 
@@ -1484,7 +1666,7 @@
 
     #massmedia {
         .massmedia_card {
-            width: calc(100% /2 - 24px);
+            width: calc(100% /2 - 12px);
             margin-bottom: 30px;
         }
     }
@@ -1779,6 +1961,10 @@
     }
 
     header {
+        padding: 30px 20px;
+        .main_container {
+            padding: 0 20px;
+        }
         .menu_bg {
             top: 112px;
             height: calc(100vh - 112px);
@@ -2297,7 +2483,7 @@
 @media (max-width: 600px) {
     .main_modal {
         border-radius: 20px;
-        width: calc(100% - 20px);
+        width: calc(75% - 20px);
         padding: 20px;
 
         .modal_img {
@@ -3082,6 +3268,19 @@
 }
 
 @media (max-width: 450px) {
+    .main_modal {
+        border-radius: 20px;
+        width: calc(100% - 20px);
+
+        input,
+        textarea {
+            font-size: 14px;
+        }
+
+        .button_three {
+            font-size: 16px;
+        }
+    }
     #contact {
         .wrapper_container .contact .contact_btns {
             display: flex;
