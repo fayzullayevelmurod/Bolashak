@@ -392,6 +392,7 @@ header .language .language_down {
   position: absolute;
   top: 100%;
   width: 99px;
+  overflow: hidden;
   background-color: #fff;
 }
 header .language .language_down .language_down_link {
@@ -3552,15 +3553,6 @@ footer .footer_bottom p {
     width: 20%;
     bottom: 0;
     right: 0;
-  }
-}
-@media (max-width: 1000px) {
-  header .menu_bg {
-    height: calc(100vh - 141px);
-    overflow-y: scroll;
-  }
-  header .menu_bg::-webkit-scrollbar {
-    display: none;
   }
 }
 @media (max-width: 993px) {

@@ -980,16 +980,16 @@
 }
 
 @media (max-width: 1000px) {
-    header {
-        .menu_bg {
-            height: calc(100vh - 141px);
-            overflow-y: scroll;
+    // header {
+    //     .menu_bg {
+    //         height: calc(100vh - 141px);
+    //         overflow-y: scroll;
 
-            &::-webkit-scrollbar {
-                display: none;
-            }
-        }
-    }
+    //         &::-webkit-scrollbar {
+    //             display: none;
+    //         }
+    //     }
+    // }
 }
 
 @media (max-width: 993px) {
