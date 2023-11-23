@@ -3185,8 +3185,74 @@ footer .footer_bottom p {
   #home .mission {
     margin-top: 30px;
   }
+  #home .application .application_right h3 {
+    font-size: 40px;
+  }
+  #home .application .application_right p {
+    font-size: 20px;
+  }
+  #home .application .application_right img:not(.application_effekt) {
+    width: 60px;
+  }
   #employees .employees_card img {
     height: 300px;
+  }
+  #questionnaire .questionnaire_home {
+    margin-bottom: 40px;
+  }
+  #questionnaire .questionnaire_home h4 {
+    font-size: 30px;
+  }
+  #questionnaire .analyzes {
+    padding-bottom: 80px;
+  }
+  #questionnaire .analyzes .analizy_effekt {
+    width: 100%;
+  }
+  #questionnaire .analyzes .wrapper_container {
+    padding: 50px;
+  }
+  #questionnaire .analyzes .wrapper_container h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  #questionnaire .analyzes .wrapper_container .analyzes_in li span {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+  #questionnaire .documents {
+    margin-bottom: 60px;
+  }
+  #questionnaire .documents .main_container .documents_left h2 {
+    font-size: 30px;
+  }
+  #questionnaire .questionnaire_text {
+    margin: 50px 0;
+  }
+  #questionnaire .questionnaire_text .main_container {
+    gap: 30px;
+  }
+  #questionnaire .questionnaire_text .main_container .questionnaire_text_left p {
+    font-size: 20px;
+  }
+  #questionnaire .questionnaire_text .main_container .questionnaire_text_left .text_left {
+    margin-top: 30px;
+  }
+  #questionnaire .questionnaire_text .main_container .questionnaire_text_left .text_left h2 {
+    font-size: 30px;
+  }
+  #questionnaire .questionnaire_text .main_container .questionnaire_text_left .text_left li {
+    font-size: 20px;
+  }
+  #questionnaire .questionnaire_text .main_container .questionnaire_text_left span {
+    font-size: 20px;
+  }
+  #questionnaire .questionnaire_text .main_container .questionnaire_text_right h4 {
+    font-size: 30px;
+  }
+  #questionnaire .questionnaire_text .main_container .questionnaire_text_right p {
+    font-size: 20px;
   }
 }
 @media (max-width: 1300px) {
