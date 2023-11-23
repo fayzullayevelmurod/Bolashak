@@ -3153,6 +3153,9 @@ footer .footer_bottom p {
     font-size: 40px;
     margin-bottom: 30px;
   }
+  #home .opportunity {
+    margin-top: 40px;
+  }
   #home .opportunity .opportunity_text h3 {
     font-size: 40px;
   }
