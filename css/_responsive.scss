@@ -428,6 +428,31 @@
         }
     }
 
+    .main_modal {
+        width: 500px;
+
+        .modal_img {
+            width: 25%;
+            z-index: -1;
+        }
+        padding: 30px 40px;
+        input {
+            height: 60px;
+            font-size: 18px;
+        }
+
+        textarea {
+            font-size: 18px;
+            height: 140px;
+        }
+
+        .button_three {
+            font-size: 22px;
+            height: 60px;
+        }
+
+    }
+
     
 
 
@@ -748,7 +773,7 @@
 
     #massmedia {
         .massmedia_card {
-            width: calc(100% /3 - 24px);
+            width: calc(100% /3 - 16px);
         }
     }
 
@@ -2356,7 +2381,7 @@
 @media (max-width: 600px) {
     .main_modal {
         border-radius: 20px;
-        width: calc(100% - 20px);
+        width: calc(75% - 20px);
         padding: 20px;
 
         .modal_img {
@@ -3141,6 +3166,19 @@
 }
 
 @media (max-width: 450px) {
+    .main_modal {
+        border-radius: 20px;
+        width: calc(100% - 20px);
+
+        input,
+        textarea {
+            font-size: 14px;
+        }
+
+        .button_three {
+            font-size: 16px;
+        }
+    }
     #contact {
         .wrapper_container .contact .contact_btns {
             display: flex;

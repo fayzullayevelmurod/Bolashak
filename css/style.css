@@ -1649,7 +1649,7 @@ header .menu_in .menu_block .menu_block_height {
 }
 #massmedia .massmedia_card {
   margin-bottom: 70px;
-  width: calc(25% - 24px);
+  width: calc(25% - 18px);
 }
 #massmedia .massmedia_card .massmedia_card_img {
   position: relative;
@@ -3179,6 +3179,26 @@ footer .footer_bottom p {
   #massmedia .massmedia_pagination {
     margin-top: 30px;
   }
+  .main_modal {
+    width: 500px;
+    padding: 30px 40px;
+  }
+  .main_modal .modal_img {
+    width: 25%;
+    z-index: -1;
+  }
+  .main_modal input {
+    height: 60px;
+    font-size: 18px;
+  }
+  .main_modal textarea {
+    font-size: 18px;
+    height: 140px;
+  }
+  .main_modal .button_three {
+    font-size: 22px;
+    height: 60px;
+  }
   .main_title {
     font-size: 50px !important;
     margin-bottom: 30px;
@@ -3388,7 +3408,7 @@ footer .footer_bottom p {
     width: 100%;
   }
   #massmedia .massmedia_card {
-    width: calc(33.3333333333% - 24px);
+    width: calc(33.3333333333% - 16px);
   }
   #contact .wrapper_container iframe {
     height: 690px;
@@ -4487,7 +4507,7 @@ footer .footer_bottom p {
 @media (max-width: 600px) {
   .main_modal {
     border-radius: 20px;
-    width: calc(100% - 20px);
+    width: calc(75% - 20px);
     padding: 20px;
   }
   .main_modal .modal_img {
@@ -5019,6 +5039,17 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 450px) {
+  .main_modal {
+    border-radius: 20px;
+    width: calc(100% - 20px);
+  }
+  .main_modal input,
+  .main_modal textarea {
+    font-size: 14px;
+  }
+  .main_modal .button_three {
+    font-size: 16px;
+  }
   #contact .wrapper_container .contact .contact_btns {
     display: flex;
     align-items: center;
