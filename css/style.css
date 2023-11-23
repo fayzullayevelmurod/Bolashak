@@ -3291,6 +3291,9 @@ footer .footer_bottom p {
   #home .partners_slider .partners_title h3 {
     font-size: 40px;
   }
+  #home .news_slider_bottom {
+    margin-bottom: 40px;
+  }
   #home .contact_block {
     margin-top: 40px;
     margin-bottom: 50px;
