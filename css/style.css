@@ -3082,6 +3082,103 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 1500px) {
+  #about .about_text p {
+    font-size: 20px;
+  }
+  #about .about_statistic span {
+    font-size: 20px;
+  }
+  #documentation {
+    padding-bottom: 50px;
+  }
+  #documentation .documentation_title {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  #licenses {
+    margin-bottom: 50px;
+  }
+  .main_title_under {
+    font-size: 20px;
+  }
+  #price .price_title p {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  #price .price_services {
+    margin-bottom: 40px;
+  }
+  #price .price_services .price_block {
+    padding: 25px 40px;
+  }
+  #price .price_services .price_block .price_block_left p,
+  #price .price_services .price_block .price_block_right p {
+    font-size: 20px;
+  }
+  #legislation .legislation_text p {
+    font-size: 20px;
+  }
+  #legislation .legislation_text blockquote {
+    padding: 25px;
+    font-size: 20px;
+  }
+  #legislation .legislation_right .massanger a {
+    width: 60px;
+  }
+  #legislation .legislation_right .massanger a img {
+    width: 100%;
+  }
+  #legislation .legislation_right h3 {
+    font-size: 40px;
+  }
+  #legislation .legislation_right p {
+    margin-bottom: 60px;
+    font-size: 20px;
+  }
+  #legislation .news_slider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #home .partners_slider .partners_title {
+    margin-bottom: 30px;
+  }
+  #home .application .application_right h3 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  #home .application .application_right p {
+    font-size: 20px;
+  }
+  #questions .application {
+    margin: 40px 0;
+  }
+  #questions .accardion_btn {
+    padding: 25px;
+  }
+  #questions .accardion_btn span {
+    font-size: 22px;
+  }
+  #massmedia {
+    margin-bottom: 50px;
+  }
+  #massmedia .massmedia_card {
+    margin-bottom: 10px;
+  }
+  #massmedia .massmedia_card h4 {
+    font-size: 22px;
+  }
+  #massmedia .massmedia_card p {
+    font-size: 18px;
+  }
+  #massmedia .massmedia_card a {
+    font-size: 20px;
+  }
+  #massmedia .massmedia_card .massmedia_card_img .massmedia_date {
+    font-size: 14px;
+  }
+  #massmedia .massmedia_pagination {
+    margin-top: 30px;
+  }
   .main_title {
     font-size: 50px !important;
     margin-bottom: 30px;
@@ -3091,6 +3188,9 @@ footer .footer_bottom p {
   }
   header .main_container {
     padding: 0 50px;
+  }
+  #employees {
+    margin-bottom: 40px;
   }
   #employees .main_container {
     gap: 28px;
@@ -3111,7 +3211,7 @@ footer .footer_bottom p {
     font-size: 25px;
   }
   #employees .employees_card .more_link {
-    margin-top: 33px;
+    margin-top: 10px;
   }
   #documentation .documentation_card .documentation_img {
     padding: 30px 0;
@@ -3818,7 +3918,7 @@ footer .footer_bottom p {
     width: calc(50% - 10px);
   }
   #massmedia .massmedia_card {
-    width: calc(50% - 24px);
+    width: calc(50% - 12px);
     margin-bottom: 30px;
   }
   #contact {
@@ -4018,6 +4118,12 @@ footer .footer_bottom p {
   .main_title_under {
     font-size: 16px;
     margin-bottom: 15px;
+  }
+  header {
+    padding: 30px 20px;
+  }
+  header .main_container {
+    padding: 0 20px;
   }
   header .menu_bg {
     top: 112px;
