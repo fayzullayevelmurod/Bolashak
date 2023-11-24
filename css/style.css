@@ -3084,6 +3084,9 @@ footer .footer_bottom p {
   #home .mission .mission_left span {
     font-size: 14px;
   }
+  #home .home_slider .homeSlider .swiper-slide {
+    padding: 40px 50px;
+  }
   #about .about_text p {
     font-size: 20px;
   }
@@ -3206,7 +3209,7 @@ footer .footer_bottom p {
     margin-bottom: 30px;
   }
   header {
-    padding: 30px 0 10px 0;
+    padding: 10px 0 10px 0;
   }
   header .main_container {
     padding: 0 50px;
@@ -3286,17 +3289,26 @@ footer .footer_bottom p {
   #legislation .legislation_text h4 {
     font-size: 25px;
   }
+  #home {
+    margin-top: 10px;
+  }
+  #home .home_slider .home_btns a {
+    width: 220px;
+  }
+  #home .questions .questions_title {
+    padding-bottom: 20px;
+  }
   #home .home_wrapper {
-    height: 500px;
+    height: 380px;
   }
   #home .home_wrapper .home_img {
     width: 100%;
   }
   #home .home_slider {
-    width: 650px;
+    width: 700px;
   }
   #home .home_slider span {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
   #home .home_slider h1 {
@@ -3312,7 +3324,7 @@ footer .footer_bottom p {
   }
   #home .home_slider .home_btns a {
     height: 50px;
-    width: 200px;
+    width: 20d0px;
     font-size: 18px;
   }
   #home .home_slider .home_slider_effekt {
