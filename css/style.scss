@@ -811,11 +811,12 @@ header {
         .main_container {
             display: flex;
             align-items: start;
-            justify-content: space-between;
+            max-width: 1780px;
             gap: 20px;
         }
 
         .mission_left {
+            width: calc(100% * 1019px / 1740px - 10px);
             span {
                 padding: 12px 26px;
                 color: #6E86C0;
@@ -861,7 +862,7 @@ header {
         }
 
         .mission_right {
-            max-width: 711px;
+            width: calc(100% * 721px / 1740px - 10px);
             p {
                 color: #383838;
                 font-family: $Manrope;
@@ -1576,6 +1577,17 @@ header {
                         }
                     }
                 }
+            }
+        }
+
+        .contact_block_right {
+            border-radius: 40px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
             }
         }
     }
