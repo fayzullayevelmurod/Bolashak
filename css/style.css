@@ -872,6 +872,7 @@ header .menu_in .menu_block .menu_block_height {
 #home .news_slider {
   margin-top: 120px;
   margin-bottom: 120px;
+  margin: auto 20px;
 }
 #home .news_slider .wrapper_container {
   border-radius: 40px;
@@ -2063,6 +2064,7 @@ header .menu_in .menu_block .menu_block_height {
 #legislation .news_slider {
   margin-top: 120px;
   margin-bottom: 120px;
+  margin: auto 20px;
 }
 #legislation .news_slider .wrapper_container {
   border-radius: 40px;
@@ -2409,6 +2411,7 @@ header .menu_in .menu_block .menu_block_height {
   overflow-x: hidden;
   position: relative;
   padding-bottom: 141px;
+  margin: auto 20px;
 }
 #questionnaire .analyzes .analizy_effekt {
   position: absolute;
