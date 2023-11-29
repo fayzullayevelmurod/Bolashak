@@ -93,7 +93,7 @@ body.hidden {
   font-family: "Manrope", sans-serif;
   font-size: 22px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 145%; /* 31.9px */
   margin-bottom: 40px;
 }
@@ -1521,9 +1521,6 @@ header .menu_in .menu_block .menu_block_height {
   padding-bottom: 120px;
 }
 #documentation .documentation_title {
-  max-width: 1740px;
-  margin: 0 auto;
-  padding: 0 20px;
   color: #383838;
   font-family: "Manrope", sans-serif;
   font-size: 42px;
@@ -1576,7 +1573,7 @@ header .menu_in .menu_block .menu_block_height {
 }
 
 #licenses {
-  margin-bottom: 120px;
+  margin: 0 20px 120px 20px;
 }
 #licenses .wrapper_container {
   padding: 70px 80px;
@@ -3159,7 +3156,8 @@ footer .footer_bottom p {
     margin-bottom: 50px;
   }
   .main_title_under {
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
   }
   #price .price_title p {
     font-size: 20px;
