@@ -1,10 +1,12 @@
 const menu = document.querySelector('.menu');
 const menu_bg = document.querySelector('.menu_bg');
+const menu_in = document.querySelector('.menu_in');
 // const body = document.querySelector('body');
 
 menu.addEventListener('click', () => {
   menu.classList.toggle('active');
   menu_bg.classList.toggle('active');
+  menu_in.classList.toggle('active');
 
   if (body.classList.contains('hidden')) {
     body.classList.remove('hidden');
@@ -13,6 +15,13 @@ menu.addEventListener('click', () => {
   }
 
 });
+
+
+menu_bg.addEventListener('click', () => {
+  menu.classList.remove('active');
+  menu_bg.classList.remove('active');
+  menu_in.classList.remove('active');
+})
 
 const modal_btns = document.querySelectorAll('.modal_btn');
 const modal_wrapper = document.querySelector('.modal_wrapper');
