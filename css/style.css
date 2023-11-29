@@ -675,10 +675,6 @@ header .menu_in .menu_block .menu_block_height {
   background: #fff;
   color: #FF62B4;
 }
-#home .home_btns .home_btn_1:active {
-  background: #da6ea6;
-  color: #fff;
-}
 #home .home_btns .home_btn_2 {
   color: #FF62B4;
   border-radius: 55px;
@@ -918,14 +914,6 @@ header .menu_in .menu_block .menu_block_height {
 #home .news_slider .news_slider_head .right_btn:not(.swiper-button-disabled) {
   transition: 0.2s ease all;
 }
-#home .news_slider .news_slider_head .right_btn:not(.swiper-button-disabled):hover,
-#home .news_slider .news_slider_head .right_btn:not(.swiper-button-disabled):hover {
-  opacity: 0.5;
-}
-#home .news_slider .news_slider_head .right_btn:not(.swiper-button-disabled):active,
-#home .news_slider .news_slider_head .right_btn:not(.swiper-button-disabled):active {
-  opacity: 0.9;
-}
 #home .news_slider .news_slider_head .swiper-button-disabled {
   opacity: 0.7;
   cursor: default;
@@ -1049,14 +1037,6 @@ header .menu_in .menu_block .menu_block_height {
 #home .partners_slider .partners_btn .partners_btn_left:not(.swiper-button-disabled),
 #home .partners_slider .partners_btn .partners_btn_right:not(.swiper-button-disabled) {
   transition: 0.2s ease all;
-}
-#home .partners_slider .partners_btn .partners_btn_left:not(.swiper-button-disabled):hover,
-#home .partners_slider .partners_btn .partners_btn_right:not(.swiper-button-disabled):hover {
-  opacity: 0.5;
-}
-#home .partners_slider .partners_btn .partners_btn_left:not(.swiper-button-disabled):active,
-#home .partners_slider .partners_btn .partners_btn_right:not(.swiper-button-disabled):active {
-  opacity: 0.8;
 }
 #home .partners_slider .partners_btn .swiper-button-disabled {
   opacity: 0.7;
@@ -2179,12 +2159,6 @@ header .menu_in .menu_block .menu_block_height {
 }
 #legislation .news_slider .news_slider_btns button:not(.swiper-button-disabled) {
   transition: 0.2s ease all;
-}
-#legislation .news_slider .news_slider_btns button:not(.swiper-button-disabled):hover {
-  opacity: 0.5;
-}
-#legislation .news_slider .news_slider_btns button:not(.swiper-button-disabled):active {
-  opacity: 0.8;
 }
 
 #price .price_title {

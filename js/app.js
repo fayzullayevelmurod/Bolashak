@@ -6,11 +6,11 @@ menu.addEventListener('click', () => {
   menu.classList.toggle('active');
   menu_bg.classList.toggle('active');
 
-  // if (body.classList.contains('hidden')) {
-  //   body.classList.remove('hidden');
-  // } else {
-  //   body.classList.add('hidden');
-  // }
+  if (body.classList.contains('hidden')) {
+    body.classList.remove('hidden');
+  } else {
+    body.classList.add('hidden');
+  }
 
 });
 
