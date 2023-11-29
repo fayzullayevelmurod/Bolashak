@@ -29,12 +29,12 @@ body.hidden {
 .main_container {
   max-width: 1740px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 60px;
 }
 
 .wrapper_container {
   max-width: 1890px;
-  padding: 0 20px;
+  padding: 0 60px;
   margin: 0 auto;
 }
 
