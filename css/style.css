@@ -3116,6 +3116,9 @@ footer .footer_bottom p {
   .link_path span {
     font-size: 12px;
   }
+  .link_path span svg {
+    width: 5px;
+  }
   #home .mission .mission_left span {
     font-size: 14px;
   }
