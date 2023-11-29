@@ -3105,6 +3105,17 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 1500px) {
+  .link_path {
+    gap: 10px;
+    margin-top: 29px;
+    margin-bottom: 10px;
+  }
+  .link_path a {
+    font-size: 12px;
+  }
+  .link_path span {
+    font-size: 12px;
+  }
   #home .mission .mission_left span {
     font-size: 14px;
   }
