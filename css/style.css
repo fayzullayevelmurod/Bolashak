@@ -514,7 +514,7 @@ header .menu_in .main_container {
 header .menu_in .menu_block {
   width: 371px;
 }
-header .menu_in .menu_block h3 {
+header .menu_in .menu_block .menu_main_link {
   margin-top: 38px;
   margin-bottom: 2px;
   color: #383838;
