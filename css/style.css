@@ -3590,6 +3590,28 @@ footer .footer_bottom p {
   #questionnaire .questionnaire_text .main_container .questionnaire_text_right p {
     font-size: 20px;
   }
+  #contact .wrapper_container iframe {
+    height: 600px;
+  }
+  #contact .wrapper_container .contact {
+    max-width: 530px;
+    padding: 45px 55px 45px 55px;
+  }
+  #contact .wrapper_container .contact .contact_address {
+    font-size: 20px;
+  }
+  #contact .wrapper_container .contact span {
+    font-size: 17px;
+  }
+  #contact .wrapper_container .contact a {
+    font-size: 20px;
+  }
+  #contact .wrapper_container .contact .contact_btns {
+    margin-top: 50px;
+  }
+  #contact .wrapper_container .contact .contact_btns a img {
+    width: 60px;
+  }
 }
 @media (max-width: 1300px) {
   body.hidden {
