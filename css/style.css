@@ -5164,6 +5164,10 @@ footer .footer_bottom p {
     margin-top: 13px;
     font-size: 17px;
   }
+  header .menu_in .menu_block .menu_main_link {
+    margin-top: 13px;
+    font-size: 14px;
+  }
   header .menu_in .menu_block a {
     margin-top: 7px;
     font-size: 14px;
