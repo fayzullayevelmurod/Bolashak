@@ -304,6 +304,15 @@
 
 @media (max-width: 1500px) {
 
+    p {
+        font-size: 16px !important;
+        font-weight: 400;
+    }
+
+    blockquote {
+        font-size: 16px !important;
+    }
+
     // link_path
     .link_path {
         gap: 10px;
@@ -396,19 +405,31 @@
     #price {
         .price_title {
             p {
-                font-size: 20px;
-                padding-bottom: 30px;
+                font-size: 16px;
+                padding-bottom: 50px;
             }
         }
 
         .price_services {
             margin-bottom: 40px;
+
+            .price_services_title {
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
             .price_block {
                 padding: 25px 40px;
                 .price_block_left,
                 .price_block_right  {
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
                     p {
-                        font-size: 20px;
+                        font-size: 16px;
+                        font-weight: 400;
                     }
                 }
             }
@@ -417,13 +438,16 @@
 
     #legislation {
         .legislation_text {
+            h4 {
+                font-size: 18px;
+            }
             p {
-                font-size: 20px;
+                font-size: 16px;
             }
 
             blockquote {
                 padding: 25px;
-                font-size: 20px;
+                font-size: 16px;
             }
         }
         .legislation_right {
@@ -481,7 +505,7 @@
             padding: 25px;
 
             span {
-                font-size: 22px;
+                font-size: 18px;
             }
         }
     }
@@ -652,10 +676,6 @@
         .legislation_text {
             .main_title  {
                 font-size: 65px;
-            }
-
-            h4 {
-                font-size: 25px;
             }
         }
     }

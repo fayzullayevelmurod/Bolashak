@@ -3085,6 +3085,13 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 1500px) {
+  p {
+    font-size: 16px !important;
+    font-weight: 400;
+  }
+  blockquote {
+    font-size: 16px !important;
+  }
   .link_path {
     gap: 10px;
     margin-top: 29px;
@@ -3143,25 +3150,38 @@ footer .footer_bottom p {
     margin-bottom: 30px;
   }
   #price .price_title p {
-    font-size: 20px;
-    padding-bottom: 30px;
+    font-size: 16px;
+    padding-bottom: 50px;
   }
   #price .price_services {
     margin-bottom: 40px;
   }
+  #price .price_services .price_services_title h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
   #price .price_services .price_block {
     padding: 25px 40px;
   }
+  #price .price_services .price_block .price_block_left h4,
+  #price .price_services .price_block .price_block_right h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
   #price .price_services .price_block .price_block_left p,
   #price .price_services .price_block .price_block_right p {
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #legislation .legislation_text h4 {
+    font-size: 18px;
   }
   #legislation .legislation_text p {
-    font-size: 20px;
+    font-size: 16px;
   }
   #legislation .legislation_text blockquote {
     padding: 25px;
-    font-size: 20px;
+    font-size: 16px;
   }
   #legislation .legislation_right .massanger a {
     width: 60px;
@@ -3197,7 +3217,7 @@ footer .footer_bottom p {
     padding: 25px;
   }
   #questions .accardion_btn span {
-    font-size: 22px;
+    font-size: 18px;
   }
   #massmedia {
     margin-bottom: 50px;
@@ -3322,9 +3342,6 @@ footer .footer_bottom p {
   }
   #legislation .legislation_text .main_title {
     font-size: 65px;
-  }
-  #legislation .legislation_text h4 {
-    font-size: 25px;
   }
   #home {
     margin-top: 10px;

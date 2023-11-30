@@ -23,6 +23,12 @@ menu_bg.addEventListener('click', () => {
   menu_in.classList.remove('active');
 })
 
+menu_in.addEventListener('click', () => {
+  menu_in.classList.remove('active');
+  menu.classList.remove('active');
+  menu_bg.classList.remove('active');
+})
+
 const modal_btns = document.querySelectorAll('.modal_btn');
 const modal_wrapper = document.querySelector('.modal_wrapper');
 const modal = document.querySelector('.main_modal');
@@ -172,11 +178,19 @@ if (light_gallery_wrapper.length) {
         let src = [];
         images.forEach(item => {
           let current_img = item.querySelector('img')
+          if(item === image ){
+            src.unshift({
+              'src': current_img.getAttribute('src'),
+              'thumb': current_img.getAttribute('src'),
+              'subHtml': ''
+            });            
+          } else {
             src.push({
                 'src': current_img.getAttribute('src'),
                 'thumb': current_img.getAttribute('src'),
                 'subHtml': ''
             });
+          }
         })
         $('#lightgallery').remove();
         const galleryContainer = document.createElement('div');
