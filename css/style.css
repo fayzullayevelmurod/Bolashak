@@ -4834,6 +4834,9 @@ footer .footer_bottom p {
   }
 }
 @media (max-width: 600px) {
+  .wrapper_container {
+    padding: 0 10px;
+  }
   .main_modal {
     border-radius: 20px;
     width: calc(75% - 20px);
