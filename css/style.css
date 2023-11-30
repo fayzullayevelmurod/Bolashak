@@ -3129,6 +3129,9 @@ footer .footer_bottom p {
        object-fit: cover;
     border-radius: 40px;
   }
+  #about .about_statistic {
+    margin-top: 50px;
+  }
   #about .about_statistic span {
     font-size: 16px;
   }
