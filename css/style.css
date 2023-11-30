@@ -514,6 +514,16 @@ header .menu_in .main_container {
 header .menu_in .menu_block {
   width: 371px;
 }
+header .menu_in .menu_block h3 {
+  margin-top: 38px;
+  margin-bottom: 2px;
+  color: #383838;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 header .menu_in .menu_block .menu_main_link {
   margin-top: 38px;
   margin-bottom: 2px;

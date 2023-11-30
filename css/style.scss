@@ -587,6 +587,17 @@ header {
 
         .menu_block {
             width: 371px;
+            h3 {
+                margin-top: 38px;
+                margin-bottom: 2px;
+                color: #383838;
+                font-family: $Manrope;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
             .menu_main_link {
                 margin-top: 38px;
                 margin-bottom: 2px;
